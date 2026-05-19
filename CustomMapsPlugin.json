@@ -1,18 +1,11 @@
 {
   "maps": [
     {
-      "name": "Beckwith Park (Night)",
-      "author": "CommunityMapper",
-      "description": "A night version of Beckwith Park with custom lighting.",
+      "name": "Ever Olympics 2",
+      "author": "EverLeaf",
+      "description": "A custom Olympic-themed arena for Rocket League.",
       "category": "Arena",
-      "downloadUrl": "https://example.com/maps/beckwith_night.zip"
-    },
-    {
-      "name": "Pillars (Custom)",
-      "author": "AnotherMapper",
-      "description": "Classic Pillars with custom textures.",
-      "category": "Arena",
-      "downloadUrl": "https://example.com/maps/pillars_custom.zip"
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4cace757f6224b7795f364c077f9169d-EverOlympics2_1.2.zip"
     }
   ]
 }
