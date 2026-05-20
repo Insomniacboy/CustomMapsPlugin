@@ -1,11 +1,2097 @@
 {
   "maps": [
     {
-      "name": "Ever Olympics 2",
-      "author": "EverLeaf",
-      "description": "A custom Olympic-themed arena for Rocket League.",
+      "name": "Blackout - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to The Blackout!",
       "category": "Arena",
-      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4cace757f6224b7795f364c077f9169d-EverOlympics2_1.2.zip"
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/83e10ff8ae1e457aa28482693651ed9e-blackout_1.0.zip"
+    },
+    {
+      "name": "Rings Of Death - BakkesPlugins",
+      "author": "",
+      "description": "A 10 Level Rings Obstacle Course!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f71d9b43715b4581a2a2a4818ec43765-deathrings-2.jpg"
+    },
+    {
+      "name": "Forbidden Island Night - BakkesPlugins",
+      "author": "",
+      "description": "Fractals version of Forbidden Temple and The Island AT NIGHT!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6781143cefd842a09119be710eabb3b7-ForbiddenIslandNightv1.jpg"
+    },
+    {
+      "name": "Forbidden Island - BakkesPlugins",
+      "author": "",
+      "description": "Fractals Version of Forbidden Temple and The Island",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b59906f83cd847e392d42d84a100cfed-ForbiddenIslandThumbnail.jpg"
+    },
+    {
+      "name": "Fractals Dropshot - BakkesPlugins",
+      "author": "",
+      "description": "A dropshot field designed as my logo! Great for 1v1 and 2v2! FIELD CREATED BY ACEMAN!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d582afe0607f44ca8a18e978fef23ce9-Fractal-Thumbnails-for-SteamMaps.jpg"
+    },
+    {
+      "name": "Fractals Corridor - BakkesPlugins",
+      "author": "",
+      "description": "1.5x SCALED UP version of Labs corridor",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6dcffa8b70bb4643aaa34557c1088ead-Fractal-Thumbnails-for-SteamMaps.jpg"
+    },
+    {
+      "name": "Air Dribble Warm Up - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/72d356bc53ef444a96ab24591847319d-Fractal-warmup-thumbnail.jpg"
+    },
+    {
+      "name": "Need Boost - BakkesPlugins",
+      "author": "",
+      "description": "Need Boost!\r\nCreated by draco\r\n\r\nEpic games download: https://drive.google.com/file/d/1SaarpLvYET_iwYP_uwbHeK3kTd-vrGFv/view?usp=drive_link\r\n\r\nWhat do you need",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/036c6fab28074c15817eef1ca0db3d34-need-boost-preview.jpg"
+    },
+    {
+      "name": "Vitality x Nescafe Latte Challenge - BakkesPlugins",
+      "author": "",
+      "description": "IMPORTANT: Faites l'update v1.1 pour que les runs soient comptabilisés: clique droit>delete map et ensuite retéléchargez la\r\nPLEASE UPDATE TO V1.1 for runs to b",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e71c1ea4a42e4599b60ed0f2cdcf1ccc-preview.jpg"
+    },
+    {
+      "name": "Fractals Utopia - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/929356df36d44af2abcdbf12da3d6020-utopia_TM.jpg"
+    },
+    {
+      "name": "Fractals Lava Course - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a8acd65d2daf44139792746465f4d77d-FLC_TM.jpg"
+    },
+    {
+      "name": "The GRID - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/bd5f26a93e84404cbb63e7e1d3e23721-thegrid-2.jpg"
+    },
+    {
+      "name": "Fractals ADC - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/557cd18cacd346c2ad0d0143b5bec830-ADCthumbnail.jpg"
+    },
+    {
+      "name": "Giant Soccer Field - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to this massive Soccer Field by MissMachoTV\r\n\r\n11 spawn points per team! This soccer field is a 2x wide, 2x length, and 1.5x goal width. An all new boos",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/458fc71ca491457b95096c2fc4e35405-SoccerField_thumbnail.jpg"
+    },
+    {
+      "name": "The Island - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/459548dcebfd4ee2a53465fbd6ed055c-TheIsland-Thumbnail.jpg"
+    },
+    {
+      "name": "The Mountain NIGHT - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/268075f8100b4bdf996dabd70eb69b5f-The-Mountain-Night-Map-Thumbnail.jpg"
+    },
+    {
+      "name": "Panic At The Disco BOOST EDITION - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e7b6985534754196a0e72f3fdb8fd449-Final--Panic-and-the-disco-map-thumbnail.jpg"
+    },
+    {
+      "name": "Panic At The Disco - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/15480c2aae9d4a33ba1961d996486976-Panic-at-the-disco-map-thumbnail.jpg"
+    },
+    {
+      "name": "The Mountain - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fa37df145efc4349a90e2b286a9226ce-TheMountainThumbnail.jpg"
+    },
+    {
+      "name": "Rubii Ruins - BakkesPlugins",
+      "author": "",
+      "description": "directed by Rubii and developed by Aceman3000 and ETHONIONI",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6c8549e12bb54bdb88fc6d9cf538ab38-c7b59d99-a312-4883-813b-88d24d9c0d05.jpg"
+    },
+    {
+      "name": "Fractals Futura Garden - BakkesPlugins",
+      "author": "",
+      "description": "Fractals version of Futura Garden",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/080df6df54724c51b98722662bdd553b-Futura-Garden-Thumbnail.jpg"
+    },
+    {
+      "name": "Sidewaller REMASTERED - BakkesPlugins",
+      "author": "",
+      "description": "Remastered version of Sidewaller made by Nytro Evan",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/aad4b2fdded74a21808cca3f68fa66be-sidewaller_thumbnail.jpg"
+    },
+    {
+      "name": "Fractals Tree Rings - BakkesPlugins",
+      "author": "",
+      "description": "A 10 level rings course through a giant tree!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f7960cef635048ee8fd7d1f355418e19-Treerings_Thumbnail.jpg"
+    },
+    {
+      "name": "Fractals Funland 2 - BakkesPlugins",
+      "author": "",
+      "description": "After over a year, fractals funland 2 is finally here! a new visually stimulating parkour/ rings map with 5 levels with unique obstacles!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/33dcda57b0ba4bda860bac25ac553832-eece3dc06f8fd54b1ae13bbf1555e081.jpg"
+    },
+    {
+      "name": "20XX Dribble Challenge - BakkesPlugins",
+      "author": "",
+      "description": "If youd like to speedrun this map, you can submit your runs here:\nhttps://www.speedrun.com/20XX_DC",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/badafeed59d247a080a1a2cc7c1d6ff1-20XXthumblogn.jpg"
+    },
+    {
+      "name": "Neo Tokyo Haxxelerator - BakkesPlugins",
+      "author": "",
+      "description": "As seen at AGDQ 2025",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/328772f983fb43d385943bb98ce62c6f-thumbnail_haxxelerator.jpg"
+    },
+    {
+      "name": "The Apex - Vertigo - BakkesPlugins",
+      "author": "",
+      "description": "The Tall One by MissMacho",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/16e9858834f44e0685e6096885eb9d81-thumb_vertigo.jpg"
+    },
+    {
+      "name": "The Apex - Shatter - BakkesPlugins",
+      "author": "",
+      "description": "Wallbreaker by glhglh",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/526c00a07fe84b64ad7e78ea07350393-thumb_shatter.jpg"
+    },
+    {
+      "name": "The Apex - Prominence - BakkesPlugins",
+      "author": "",
+      "description": "Cross Bridge by Leth",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8b1c0b98b99545e89137c382f423e1ab-thumb_prominence.jpg"
+    },
+    {
+      "name": "The Apex - Overpass - BakkesPlugins",
+      "author": "",
+      "description": "Highland Loop by Trinal",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f0bb748e1292447f9197d40db1bbaa13-thumb_overpass.jpg"
+    },
+    {
+      "name": "The Apex - Halo - BakkesPlugins",
+      "author": "",
+      "description": "Floating Rings by Leth",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cf94b27f69c84575900442c9e4b98d8d-thumb_halo.jpg"
+    },
+    {
+      "name": "The Apex - Gradient - BakkesPlugins",
+      "author": "",
+      "description": "RMP Arena by Nickster",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8ffd7ed986674b05b5a917de65109b94-thumb_gradient.jpg"
+    },
+    {
+      "name": "The Apex - Exfoliation - BakkesPlugins",
+      "author": "",
+      "description": "The Bathtub by SimpleShark",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b85f924f078140e3a5072ca854030d72-thumb_exfoliation.jpg"
+    },
+    {
+      "name": "The Apex - Crucible - BakkesPlugins",
+      "author": "",
+      "description": "Hoops Stadium by Leth",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/bebd3fdade1f4f6eaaa329a69d1b2da1-thumb_crucible.jpg"
+    },
+    {
+      "name": "The Apex - Convergence - BakkesPlugins",
+      "author": "",
+      "description": "Galley-Oops by Mr. Swaggles",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/25c567e129e4410b8199d25d34bb41c0-thumb_convergence.jpg"
+    },
+    {
+      "name": "The Apex - Colossus - BakkesPlugins",
+      "author": "",
+      "description": "Big Hoops by Mr. Swaggles",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/63315f2b41fe4ae29355e58d2ce0046f-thumb_colossus.jpg"
+    },
+    {
+      "name": "The Apex - Blacktop - BakkesPlugins",
+      "author": "",
+      "description": "Standard map by SimpleShark",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/700d63d391af4e949c1d860b0eaf0438-thumb_blacktop.jpg"
+    },
+    {
+      "name": "The Apex - Barrage - BakkesPlugins",
+      "author": "",
+      "description": "Volleyball by Derzo and MrPhil",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/577cb10119f942ce851bdd48cb1456d5-thumb_barrage.jpg"
+    },
+    {
+      "name": "The Apex - Ascent - BakkesPlugins",
+      "author": "",
+      "description": "Competitive Quidditch by gidek",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3fd174964a934c0198696bb49bf58b31-thumb_ascent.jpg"
+    },
+    {
+      "name": "Shattershot - BakkesPlugins",
+      "author": "",
+      "description": "Additional info\nIn order for the tiles to break, you *must* be in the dropshot gamemode. Launch the map with Rocket Plugin and put the gamemode to dropshot. The",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e68bc149ed2245c5b2b846c128ed4c54-f5932382-7123-4463-a575-ce17998eef0e.jpg"
+    },
+    {
+      "name": "Erazer Challenges - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b8a36c4d6fa34148bcadd4ef49f92564-preview.jpg"
+    },
+    {
+      "name": "AsymmetricalGoalsDomination - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7f5eac494bfc4a6cb29f3681165d8e6f-AsymmetricalGoals_Domination.jpg"
+    },
+    {
+      "name": "The Rooftop - BakkesPlugins",
+      "author": "",
+      "description": "Made by Aceman3000 and Fractal",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/81de0f47eaed45eca4a539c807d563a9-cb642960-5a85-4886-8d4f-0414a03bd084.jpg"
+    },
+    {
+      "name": "Air Dribble Gauntlet - BakkesPlugins",
+      "author": "",
+      "description": "If you'd like to speedrun this map, you can submit your runs here:\nhttps://www.speedrun.com/aceadg",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5e1728e92c95450f8ab05a5355bbb825-db423f47-e4f5-405f-90ec-0805439f8a92.jpg"
+    },
+    {
+      "name": "Sharingan Rings - BakkesPlugins",
+      "author": "",
+      "description": "If you'd like to speedrun this map, you can submit your runs here:\nhttps://www.speedrun.com/SharinganRings",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ae2d5743405f488ebc20c198d546b6d8-5decf176-8de0-41e0-90a5-6f3260886368.jpg"
+    },
+    {
+      "name": "Telegoal - BakkesPlugins",
+      "author": "",
+      "description": "Requirements\n- If playing multiplayer, the host needs Map Expansion Plugin for Bakkesmod\n - 110 field of view\n- Render Quality: High Quality (may need to restar",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4e908b2baf684e2494075373135cd010-df1f9ff8-3d77-4d6e-9d9e-7d5402013e5b.jpg"
+    },
+    {
+      "name": "Rumble_2_0_The_Clan_War_3rd_Anniversary_Edition - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5bf74c1b96fa40a3882881e2e7505230-Epic.jpg"
+    },
+    {
+      "name": "DVD Mod - BakkesPlugins",
+      "author": "",
+      "description": "This map is a standard Rocket League map, but instead of a normal ball, it is a DVD. I have also put a bouncing DVD logo in the goals :)",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/0318a8a0e8884b75adf058a32f551080-a9209f3e-14c1-4b14-ba8a-fa827e13b721.jpg"
+    },
+    {
+      "name": "RL Penny Map by Drumitch - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/aa6e8c9cc344453ab994db74982ecfee-RLPennyMap.jpg"
+    },
+    {
+      "name": "Big Field 6 by Drumitch - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a8ef02d2495645efaada287c9aeb26a1-Bigfield6.jpg"
+    },
+    {
+      "name": "Tunnel Vision by Drumitch - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b58149c2d7964ea7851ea5bd81e810bd-TunnelVision.jpg"
+    },
+    {
+      "name": "MrSquiggles - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cd41657079d34d3ba6be8f621247bf7f-thumbnail_mrsquiggles.jpg"
+    },
+    {
+      "name": "Funnelball by Drumitch - BakkesPlugins",
+      "author": "",
+      "description": "Ever wanted to play on a map where the goal is funnel-shaped? Well now you can! This map has a high ceiling, 4 curved pillars, \r\nand goals shaped like funnels t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ad87b896470d42ec89d4802803349f34-Funnelball.jpg"
+    },
+    {
+      "name": "Ramped Up by Drumitch - BakkesPlugins",
+      "author": "",
+      "description": "It's time to ramp it up!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/410eb32e808c404ea1b5b51451d0c6a0-RampedUp.jpg"
+    },
+    {
+      "name": "Feverdream Volleyball - BakkesPlugins",
+      "author": "",
+      "description": "I dreamt this map on day 2 of whatever plague I've been dealing with for a week straight. Siiick!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/76dadb4fc63149e887461963e3cf84d3-thumbnail_feverdream.jpg"
+    },
+    {
+      "name": "Placid Plastic Bot Simulator - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3dcdd25ddb2c4e2db495f99c35d0ff74-ppbs_thumbnail.jpg"
+    },
+    {
+      "name": "Rocket Labs Squeeze - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8cd75ec142a94d8596e1778be18b6d4f-thumbnail_sqeeze.jpg"
+    },
+    {
+      "name": "Credit Agricole Crossbar Challenge - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d75bc9fd7bda4adfbdbe939e7d0aa004-CreditAgricole_CrossbarChallenge.jpg"
+    },
+    {
+      "name": "Eversax Olympics 2 made by gidek - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f6c9767e82c94f40a8877e4e21057bb9-preview.jpg"
+    },
+    {
+      "name": "Credit Agricole Shortcut Challenge - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4d5f1822292d4fb1aec6634c249a4ff7-MINIATURE_STEAM.jpg"
+    },
+    {
+      "name": "Custom Maps on Console - BakkesPlugins",
+      "author": "",
+      "description": "At Long Last!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e088392a0f0741eca6d5f1a4b92daead-thumbnail_console.jpg"
+    },
+    {
+      "name": "Grand Champions Field - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the number one map used by Grand Champions to rank up!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/69d24905b9c14cf1907c30d12062e069-grandchamp_thumbnail.jpg"
+    },
+    {
+      "name": "FaZe Luxodrome - BakkesPlugins",
+      "author": "",
+      "description": "From the FaZe Arcade presented by Porsche at the 2023 RLCS World Championships in Düsseldorf, Germany",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/466cfcb20e37416683292052bb638798-thumbnail_luxodrome.jpg"
+    },
+    {
+      "name": "JBL Quantum Challenge - BakkesPlugins",
+      "author": "",
+      "description": "<h4>Welcome to the JBL Quantum Challenge!</h4>Play through 9 unique levels and get the best time!\r\nA contest is going on until August 14th, more info at the bot",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/0299bbb1e4664c71ad11a9a0f1ffd72b-preview.jpg"
+    },
+    {
+      "name": "Up The Wall - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to UP THE WALL by MissMachoTV\r\nSimilar to side swipe, this goal is in the upper center of the wall! To add a little extra weirdness, the map is also tur",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8ea1c963681c49698dc832e0ca442b76-UpTheWallThumbnail.jpg"
+    },
+    {
+      "name": "The Wide One - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to THE WIDE ONE by MissMachoTV\r\n\r\nA Plat's dream and SSL's nightmare! No need to protect the goal from ariels because they wont be going in! Have fun wi",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b8438b0bd69649deb620d43a8539e6a3-TheWideOne_Wide.jpg"
+    },
+    {
+      "name": "Plumatos Rings - BakkesPlugins",
+      "author": "",
+      "description": "A rings map for my first donator Plumato          \r\nThere is a collectable section, tied with a parkour sections after! Can you find all 20 Bloons?          \r\nS",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8fce23cb59554da086c238f21ef5f90c-preview.jpg"
+    },
+    {
+      "name": "Bumblebee Mode - BakkesPlugins",
+      "author": "",
+      "description": "A swarm of bees has invaded Rocket League and are disrupting the game. This is a multiplayer map that works with 1v1, 2v2, 3v3, etc. No plugins are needed.\r\n\r\nR",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/dfcdfe009d884192b69c33828e7f6340-Bumblebee_mode_wide.jpg"
+    },
+    {
+      "name": "Mismatch - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to MISMATCH by MissMachoTV\r\n\r\nThe perfect balance!! The small goal on one side and the big goal on the other side is perfect for low rank vs high rank,",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9e2b8f39107244b3beee313ebc775b76-mismatch_intro_screen.jpg"
+    },
+    {
+      "name": "The Real Boomer Mode - BakkesPlugins",
+      "author": "",
+      "description": "This is a multiplayer stadium. Play with your friends either 1v1, 2v2, 3v3, or 4v4.\r\n\r\nEVERYBODY needs Bakkesmod Net Code Plugin (#166) in order to BOOM.\r\n\r\nPre",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1e673b1fd78c42b6b9dd7019d9484093-Boomer_mode.jpg"
+    },
+    {
+      "name": "Portal Floor Stadium - BakkesPlugins",
+      "author": "",
+      "description": "*Host will need Map Expansion Plugin for map to work!!!* (#294)\r\n\r\nFirst team to score 30 goals wins.\r\n\r\nUse the following settings when playing this map.\r\n\r\nMa",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/63b6f95474ae4ba4b71a82e29186a441-portal_floor_stadium.jpg"
+    },
+    {
+      "name": "ThundaSurges Rings - BakkesPlugins",
+      "author": "",
+      "description": "This map is made to be a challenging rings map. It includes many levels that require tight car control and the use of flips. Be prepared to have to spend some t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4f70d93fdaaa4805a389091710ad9f33-ThundaSurges_Rings.jpg"
+    },
+    {
+      "name": "The Big One - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to THE BIG ONE by MissMachoTV\r\n\r\nThe whole back wall is... the goal?! How do you defend such a massive net?! Seems like the perfect map to try some new",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4a8a3f78fb1d4a65afafce31d0941e2e-TheBigOne_Thumbnail.jpg"
+    },
+    {
+      "name": "Rust 2x2 - BakkesPlugins",
+      "author": "",
+      "description": "Just your average Rust 2x2.\r\n\r\nSettings:\r\n- Unlimited Boost",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/04682afffdcc4b2d901b0b7123c5a958-preview.jpg"
+    },
+    {
+      "name": "Hexagon Hoops - BakkesPlugins",
+      "author": "",
+      "description": "Play hoops in a world that destroys itself.\r\n\r\nRecommended Settings\r\n- Unlimited Boost\r\n\r\nNotes\r\n- Edges are hard to deal with. If you turtle, you will clip the",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e1627196e315444fb2865fac38931650-preview.jpg"
+    },
+    {
+      "name": "Fetch - BakkesPlugins",
+      "author": "",
+      "description": "Dog is man's best friend. You're the dog... Fetch!\r\n\r\nThe dog owner rewards you for bringing the ball back, especially if you did all the work.\r\n\r\nGame Rules\r\n-",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e2d8fdb1c0cc4222b683c7c250380cab-preview.jpg"
+    },
+    {
+      "name": "Air Dribble Hoops - BakkesPlugins",
+      "author": "",
+      "description": "A fun and challenging course to improve your air dribbling.\r\n\r\nMy info\r\nhttps://twitch.tv/tjbrother\r\nhttps://twitter.com/tjbrotherlive\r\n\r\nSpeedruns\r\nhttps://www",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3e5e9d3b600c442795ed41249a460930-preview.jpg"
+    },
+    {
+      "name": "The Tall One - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to THE TALL ONE\r\nby MissMachoTV\r\n\r\nWhat happens when the goal is tall instead of wide? Do you go to backboard instead of back post on defense? Is it wor",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2f069c5c9bee4a88a243d55e4518be05-TheTallOne_Thumbnail.jpg"
+    },
+    {
+      "name": "Pinbal34 - BakkesPlugins",
+      "author": "",
+      "description": "You might get angry at little things, change the file from .udk to .upk, I forgot",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5d25dd66a8eb43e6900827be47095e91-preview.jpg"
+    },
+    {
+      "name": "5-Hole - BakkesPlugins",
+      "author": "",
+      "description": "Randomized goals",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/204d0b5fe67f42b9a9969783a8e08184-5-Hole.jpg"
+    },
+    {
+      "name": "Santas Workshop - BakkesPlugins",
+      "author": "",
+      "description": "Play Santa's Workshop escape room in Rocket League!\r\n\r\nSpecial thanks to RANKKY for helping me with this map\r\n\r\n\r\nRecommended settings:     Freeplay",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8c212abf96fe41c29efc84039685b26c-Santas_workshop.jpg"
+    },
+    {
+      "name": "The Path - BakkesPlugins",
+      "author": "",
+      "description": "The Path is a skills challenge map unlike anything you've seen before! Test your skills in over 28 continuous segments and bonus challenges. Travel through 3 pr",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a48ba70729364e1a96441b36e8909b67-preview.jpg"
+    },
+    {
+      "name": "Wii Sports Tennis - BakkesPlugins",
+      "author": "",
+      "description": "Play Tennis in Rocket League!\r\n\r\nMutators:\r\nUnlimited time, unlimited boost, disable goal reset\r\n\r\nTo make it easier you can also change ball gravity to low",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8b569057875d4e0995c5ce6f1c38b9a3-1.jpg"
+    },
+    {
+      "name": "Rocket League Chase Tag - BakkesPlugins",
+      "author": "",
+      "description": "Play tag in rocket league!   \r\n\r\nMutators:\r\nUnlimited time, no boost, disable goal reset",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/727bde2acce943359a2bfc2df8c76078-rlct.jpg"
+    },
+    {
+      "name": "Landens Rings - BakkesPlugins",
+      "author": "",
+      "description": "Fly through an EPIC 16 level aerial course!   \r\n\r\nMutators:\r\nFreeplay",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cb34c2082d114cbe89efd2219bc7baac-lrings.jpg"
+    },
+    {
+      "name": "Landens PC - BakkesPlugins",
+      "author": "",
+      "description": "Play hide and seek inside a GIANT computer!   \r\n\r\nMutators:\r\nUnlimited time, unlimited boost",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6d18cacda35b4b30805d2131b8df20de-lpc.jpg"
+    },
+    {
+      "name": "Whack A Mole - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/92c4723d5380404eaac1d4ddf118a555-LethWhackAMole.jpg"
+    },
+    {
+      "name": "Whack A Ball - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/13a75582d9e04ee0935743384737de1d-LethWhackABall.jpg"
+    },
+    {
+      "name": "Warzone - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/23d5f15a22fe4e26819d4505936832c3-Leth_Warzone.jpg"
+    },
+    {
+      "name": "KO TiltedBoat - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2e654f3bbf0b43b595cda789fb7c35a2-LethKO_TiltedBoat.jpg"
+    },
+    {
+      "name": "KO SumoAir - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/da8d72b5a45c4aba87d8d2abcb8b17a1-LethKO_SumoAir.jpg"
+    },
+    {
+      "name": "KO OuterLimits - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/df279e8b07b644c39352d0595ff1f73f-LethKO_Outerlimits.jpg"
+    },
+    {
+      "name": "KO Cubic - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/eef5533a6e6d42bdb655c120e9d1af8f-LethKO_Cubic.jpg"
+    },
+    {
+      "name": "Totally Awesome Weekend - BakkesPlugins",
+      "author": "",
+      "description": "All seven maps from the Gold Rush Totally Excellent Weekend!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/744edbf4a94c4fa98375dbb462311162-thumbnail_tew.jpg"
+    },
+    {
+      "name": "Workshop Textures - BakkesPlugins",
+      "author": "",
+      "description": "Map Textures",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2f6caebd0d164f4199a6c041486b9c1e-images.jpg"
+    },
+    {
+      "name": "Galleon_TNT - BakkesPlugins",
+      "author": "",
+      "description": "Galleon map but outside, with TNT around that changes position after each goal\r\n\r\nHuge thanks to Leth's tweet for letting me know that the galleon already exist",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f5f5afde50974458b574397f0520db6e-preview.jpg"
+    },
+    {
+      "name": "BombTag - BakkesPlugins",
+      "author": "",
+      "description": "Hot Potato With a Bomb!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ac532b6182a540a882715e2783cbd42d-BombTag.jpg"
+    },
+    {
+      "name": "Up and Down - BakkesPlugins",
+      "author": "",
+      "description": "Up and Down - Made by zachakaquack - Bottom half is regular gravity, top half is inverted. (Note - the steering is a bit f*cked on the inverted gravity)\r\nCREDIT",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/266026cad21c4694a39c3db186b26fe3-UpandDownThumbnail.jpg"
+    },
+    {
+      "name": "Pinch-Map - BakkesPlugins",
+      "author": "",
+      "description": "Just a map to train your pinches' accuracy, You're gonna overshoot both easy and hard shots, there are 22 levels, 11 on the left side and 11 on the right one.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1344e07dfec1498aa0addb7049bf2712-preview.jpg"
+    },
+    {
+      "name": "Knockout Mushroom Kingdom - BakkesPlugins",
+      "author": "",
+      "description": "Knockout in 2D on a map from Super Smash Bros (Nintendo 64).",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c50b54faccdd4a0bad46a94c6c5aa6dc-preview.jpg"
+    },
+    {
+      "name": "Highlight - BakkesPlugins",
+      "author": "",
+      "description": "Bottom goal gives 1 point and top goal gives 2 points.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/bf9f82ee8df846588b41de66a35d6e2f-preview.jpg"
+    },
+    {
+      "name": "Narrow heatseeker Beckwith park - BakkesPlugins",
+      "author": "",
+      "description": "Heatseeker, but in a narrow corridor because why not?\r\n\r\nIf you are using rocket plugin to host the map, make sure to use Soccar as the game mode. Do not use th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6e711e3b9a6b4823a41f795cf15ba2c7-preview.jpg"
+    },
+    {
+      "name": "Beach volleyball night - BakkesPlugins",
+      "author": "",
+      "description": "Original field made by Derzo.\r\nEver wanted to play the beach ball limited time mode the way it was meant to be played? Wait no more!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/da6c63ba40774e5e8f2606df35812603-preview.jpg"
+    },
+    {
+      "name": "Triple Goal - BakkesPlugins",
+      "author": "",
+      "description": "This is my very first map creation. I was testing models and the basics of Rocket League custom maps. There are 3 goals on each side of the field, and that’s al",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/481839f2ad934c79b71c53e61e36ab0a-preview.jpg"
+    },
+    {
+      "name": "Giant Foosball Table - BakkesPlugins",
+      "author": "",
+      "description": "This map takes Standard Rocket League and places it on regular foosball table!. Scoring is just like normal, except the ball has to fall into the floor of the g",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/eafce8a0384844b2bd78dc1e8a4f37e4-preview.jpg"
+    },
+    {
+      "name": "Air Hockey Table - BakkesPlugins",
+      "author": "",
+      "description": "The puck (or ball) spawns on top of the bridge, and there is a barrier between the two halves of the map to divide players. If you shoot the puck (or ball) thro",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a5c9eb83f9e74b13b66201d38f3723a3-preview.jpg"
+    },
+    {
+      "name": "Giant Pinball Table - BakkesPlugins",
+      "author": "",
+      "description": "Insert the ball into the coin slot to start the game. Use your car to control the flippers and launch the ball. See how high of a score you can get!\r\n\r\nRecommen",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/48071bb655a34015af2f0e2de8ea2bda-preview.jpg"
+    },
+    {
+      "name": "Break the Bank - BakkesPlugins",
+      "author": "",
+      "description": "Collect points by getting the ball through your colored rings and bring the ball to your color's bank! If a goal is scored, the collections reset. At the moment",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/59d479353ae240a99213792199bee2ef-preview.jpg"
+    },
+    {
+      "name": "Beer Pong - BakkesPlugins",
+      "author": "",
+      "description": "This map brings the classic game of Beer Pong into Rocket League. There are 6 cups for each team, score on all 6 to win the game! There is a giant cup portal at",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/59eaef39e1a84afa8326846d0f1eb58d-preview.jpg"
+    },
+    {
+      "name": "Prop Hunt - BakkesPlugins",
+      "author": "",
+      "description": "Disguise your car as a prop and try to avoid getting caught!\r\n\r\nThis map is the first prop hunt map I created. You can choose a variety of medieval props to hid",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/99c59f447f4347b09002f2a5a6a58b6b-preview.jpg"
+    },
+    {
+      "name": "Ping Pong Table - BakkesPlugins",
+      "author": "",
+      "description": "This was one of my first attempts at custom models and importing them into Rocket League. This ping pong table has goals around the outside border, and can lead",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4236f3833df94180964657131551c88c-preview.jpg"
+    },
+    {
+      "name": "Water Polo - BakkesPlugins",
+      "author": "",
+      "description": "This map was originally created by Glhglh, but I remastered it to work in the current state of the game. The goals are suspended halfway up the sides of the fie",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/311760fd4736497398d425bb2044fcbb-preview.jpg"
+    },
+    {
+      "name": "Pool Table - BakkesPlugins",
+      "author": "",
+      "description": "This map is currently broken, but feel free to explore the map and see how it all works!\r\nThe original map worked by shooting the cue ball into the group of poo",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d1a8a3fc01d1422e81cb49110374edd3-preview.jpg"
+    },
+    {
+      "name": "Battlegrounds - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the battlegrounds! This map is 7 nearly-standard maps glued together. Probably one of the funniest maps I’ve created, even though it’s quite glitchy",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ca5e29c297be4812a4159298aedca132-preview.jpg"
+    },
+    {
+      "name": "Shipment - BakkesPlugins",
+      "author": "",
+      "description": "I brought Call of Duty into Rocket League by recreating the Shipment map we all know and love! The goals are inside the open shipping containers on each team’s",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/bcafc0f69fcf48c7b93cc2d66863c08a-preview.jpg"
+    },
+    {
+      "name": "Portal - BakkesPlugins",
+      "author": "",
+      "description": "Play in a Portal-style map with portals that connect to each side of the room!\r\n\r\nThe goals are the giant doors on each side of the map. I plan on making a seco",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/90abf762e09e406193bfe4a6ed0265d4-preview.jpg"
+    },
+    {
+      "name": "Boardwalk - BakkesPlugins",
+      "author": "",
+      "description": "The goals of this map are atop a boardwalk that splits off in 4 ways in the center. This map was built from the skeleton of my Water Polo map, and I created a s",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/121a474c0c36421fb1c9ec99bb6b5c70-preview.jpg"
+    },
+    {
+      "name": "Dribbling Challenge 1 - BakkesPlugins",
+      "author": "",
+      "description": "This map was my first attempt at making a dribbling challenge. I purposely made this one very difficult to elevate the difficulty of dribbling challenges out th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/618568f9329d4d72a2faf79e7e2c49b6-preview.jpg"
+    },
+    {
+      "name": "Block Fort - BakkesPlugins",
+      "author": "",
+      "description": "Block Fort was an original Mario Kart 64 Battle Arena, and I brought it into Rocket League! Each block fort has a cube goal on top, feel free to play free for a",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e99f0bcd1f194085993b01188068c501-preview.jpg"
+    },
+    {
+      "name": "2Fort - BakkesPlugins",
+      "author": "",
+      "description": "2Fort is a map from Team Fortress 2, and it’s HUGE! This map is made up of nearly 3000 models I had to individually import and texture, and took me around 300 h",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/48268b1df6114615b3afed787209a98e-preview.jpg"
+    },
+    {
+      "name": "Christmas Snow Hill - BakkesPlugins",
+      "author": "",
+      "description": "I created this map for 2019 Christmas, taking a ski-hill design and creating a sloped standard Rocket League field. The most difficult part to make in this map",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/265c0449002a4e24802ce35b47a340f4-preview.jpg"
+    },
+    {
+      "name": "Basketball Court - BakkesPlugins",
+      "author": "",
+      "description": "This basketball court features 3 basketball nets on each team, elevated from the floor. The outer nets grant you 2 points per goal! Be careful not to get stuck",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1b0dc038aa244cf49064db6cd0dba080-preview.jpg"
+    },
+    {
+      "name": "Original Sumo - BakkesPlugins",
+      "author": "",
+      "description": "This is the first of many Sumo maps I’ve created! This map is a simple sumo map with a single circular platform to battle with your friends! Be the last one sta",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ba4fe1150705452abaad13f57a2504e8-preview.jpg"
+    },
+    {
+      "name": "Bouncy Castle - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League inside a bouncy castle! There are 4 goals in each quadrant of the map, and the floor is quite bumpy. Using Rocket Plugin (Bakkesmod), you can chan",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/75a724169f5d4d85b2eb5cbbfda84a3a-preview.jpg"
+    },
+    {
+      "name": "Rainbow Road 64 - BakkesPlugins",
+      "author": "",
+      "description": "Rainbow Road 64 brought to life inside Rocket League! This is the first race map I’ve created. These are models ripped from the N64 game and imported into a map",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9617f2c4dcf84eb2b69e523e14515ebc-preview.jpg"
+    },
+    {
+      "name": "Underwater Goals - BakkesPlugins",
+      "author": "",
+      "description": "This map is difficult. That is all.\r\n\r\nRecommended Settings\r\nBoost: Unlimited\r\nTime: Unlimited\r\nYou may want Boomer or Rumble!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2484434a75744378b65591df59a280ce-preview.jpg"
+    },
+    {
+      "name": "Easter Catwalk - BakkesPlugins",
+      "author": "",
+      "description": "This map was created for Easter of 2019, collaborated by myself and Glhglh, a well-known map maker! This map has 2 goals on top of a catwalk in the center of th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7ccc62197fb04f27a833baeb5471c412-preview.jpg"
+    },
+    {
+      "name": "Gladiator - BakkesPlugins",
+      "author": "",
+      "description": "Gladiator is a unique form of Tug of War, where you battle against the opponent to push the ball through the rings and score in the final goal at the back of th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/426fc9f0a93e4a12a7896b2167e0ef78-preview.jpg"
+    },
+    {
+      "name": "Minecraft - BakkesPlugins",
+      "author": "",
+      "description": "Bring Minecraft and Rocket League together in giant map of a Minecraft town. This map can be played as either a Standard map or Hide n Seek. You can hide anywhe",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7d242ca1515e4360904a65d2d7553b8d-preview.jpg"
+    },
+    {
+      "name": "Luigis Mansion - BakkesPlugins",
+      "author": "",
+      "description": "Luigi’s Mansion is an old race track from the Mario Kart series! This map is great as a race map in 2 different ways. Either as a driving race, or using the Gho",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7369741f058049c2bfc454ec4c3e15a4-preview.jpg"
+    },
+    {
+      "name": "Pyramids - BakkesPlugins",
+      "author": "",
+      "description": "A standard field hidden away in the Rocket League desert, this map features bumpy sand dunes with pyramids scattered inside a giant map! Try to keep control of",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d418542b3afc4572be0bb51dd010622f-preview.jpg"
+    },
+    {
+      "name": "The Floor is Lava - BakkesPlugins",
+      "author": "",
+      "description": "The second Sumo map of the series! This time the standard field has been overrun by lava and you have to avoid falling in. Feel free to play Free for All or Tea",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4e66d66ddda84ff3be88331f286d9207-preview.jpg"
+    },
+    {
+      "name": "Pitch Black - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League but everything except the ball and cars is completely invisible! Try not to get lost. The ball color definitely helps keep an idea of where the ba",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/51251dbfd24943efa740c98e7501c5d2-preview.jpg"
+    },
+    {
+      "name": "Shuffleboard - BakkesPlugins",
+      "author": "",
+      "description": "Play shuffleboard with your friends in Rocket League! Spawn in the puck and slide it down the track to try and score as many points as you can! Feel free to mak",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/401a335538464acda0fb569b2f2d91d8-preview.jpg"
+    },
+    {
+      "name": "Mayan Pitz - BakkesPlugins",
+      "author": "",
+      "description": "Designed after an old historic game with rings on the wall. Score through the rings with the ball to win! This game was in Road to El Dorado, one of my favorite",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/586000000e504bee91149a1d9813ee9f-preview.jpg"
+    },
+    {
+      "name": "Foosball Table 2.0 - BakkesPlugins",
+      "author": "",
+      "description": "REMASTERED VERSION:\r\n\r\nThis map takes Standard Rocket League and places it on regular foosball table!. Scoring is just like normal, except the ball has to fall",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/271701673f78409e99ae71b53690be1d-preview.jpg"
+    },
+    {
+      "name": "Ice Rings - BakkesPlugins",
+      "author": "",
+      "description": "Learn how to aerial like a pro inside a giant 20-level course of aerial navigation. The rings get smaller as you go through the levels, try for a personal best!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/aa314487cfc24e36a791257e46def904-preview.jpg"
+    },
+    {
+      "name": "Squash Court - BakkesPlugins",
+      "author": "",
+      "description": "Play Squash with a Rocket League ball! The court is to scale, and plays out just like the game in real life. Serve above the middle red line, and the possession",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/0227cc196a714e528a197b4600c6d8d6-preview.jpg"
+    },
+    {
+      "name": "Skyscraper - BakkesPlugins",
+      "author": "",
+      "description": "Another classic battle map from Mario Kart 64, turned into a standard map in Rocket League! The 4 goals are in the colored openings of the skyscraper. You can c",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6450200a35af4f8c9595631e5f34ae67-Skyscraper.jpg"
+    },
+    {
+      "name": "4-Square - BakkesPlugins",
+      "author": "",
+      "description": "A childhood favorite during recess, 4-square is here in Rocket League! The ball has to fall below the floor to score, feel free to keep tally of individual poin",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7eda6ac5eb5345a78e01dfe52e90d71b-preview.jpg"
+    },
+    {
+      "name": "Warios Goldmine - BakkesPlugins",
+      "author": "",
+      "description": "The most detailed Mario Kart map brought into Rocket League so far: this map was extremely difficult to bring to life, and I had to create custom collision for",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ccbb13861b6540cc883336d434766f87-preview.jpg"
+    },
+    {
+      "name": "Heatseeker Dungeon - BakkesPlugins",
+      "author": "",
+      "description": "A standard map with a re-colored Heatseeker ball! I had this as a game mode before Rocket League officially put Heatseeker in as a mutator. Enjoy playing Heatse",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/67a088c1f6b74111a87917e9b4f0232e-preview.jpg"
+    },
+    {
+      "name": "Heatseeker Tennis - BakkesPlugins",
+      "author": "",
+      "description": "Heatseeker with a twist! The net in the center of the map can really cause some trouble for either your opponent or yourself! Be careful if the ball hits the ne",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5543f4ce36ad4514b472de9a9d9a7287-preview.jpg"
+    },
+    {
+      "name": "Tetherball - BakkesPlugins",
+      "author": "",
+      "description": "I finally got Tetherball in Rocket League to work, and it’s amazing! The heatseeker ball swings around the center pole, and the goals are on the outer edges of",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/477141a695a34b1bb1449d6b6c157f1c-preview.jpg"
+    },
+    {
+      "name": "Miniature Pool Table - BakkesPlugins",
+      "author": "",
+      "description": "A top-down Rocket League racer inside a classic style arcade. Honestly one of my favorite maps in terms of visual aesthetic, I really love the mood of this one.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/151da00408584d1c9a70e929fe1ccd6f-preview.jpg"
+    },
+    {
+      "name": "Hoops Stadium - BakkesPlugins",
+      "author": "",
+      "description": "Hoops meets Throwback stadium! I’ve created 2 bowls and placed them inside an oval-shaped Rocket League field. The map is exactly what you’d expect: score in th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f573c9aff06240ea8527c35ba08ebec0-preview.jpg"
+    },
+    {
+      "name": "Fashion Show - BakkesPlugins",
+      "author": "",
+      "description": "Show off your car in this unique fashion show room! This was a map I made for BlackWidow for her fashion show. This map could be used for a deathmatch!\r\n\r\nRecom",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7e0a3d0362634efcb45e321d1255eb84-preview.jpg"
+    },
+    {
+      "name": "Lava Rings - BakkesPlugins",
+      "author": "",
+      "description": "Re-textured Ice Rings:\r\n\r\nLearn how to aerial like a pro inside a giant 20-level course of aerial navigation. The rings get smaller as you go through the levels",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a7de16d4aed149f1a18aa9fadfcc0309-preview.jpg"
+    },
+    {
+      "name": "Star Wars - BakkesPlugins",
+      "author": "",
+      "description": "Do I need to say more? I created a Star Wars themed Standard Map! You’re located inside a hangar of a Star Destroyer. In the distance you can see the Death Star",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/35616e05418f4fdfbd898f9b5c8a60cd-preview.jpg"
+    },
+    {
+      "name": "Airship - BakkesPlugins",
+      "author": "",
+      "description": "This is the third installment of the Sumo Series, this time with fans that launch you into the air! There are elevated platforms that you can hide away and coll",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/03d183bbfaf74f1aa57ef0b55c71f1ec-preview.jpg"
+    },
+    {
+      "name": "Spaceship - BakkesPlugins",
+      "author": "",
+      "description": "Explore the depths of an abandoned Spaceship, or hide with your friends! This map is gigantic, so I’ve provided 2 versions to help with peoples’ PCs if they fin",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c9fc7a48652e442593aa391a64813e3e-preview.jpg"
+    },
+    {
+      "name": "Hospital - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the Rocket League Hospital! One of the biggest Hide and Seek maps to date, there are plenty of unique ways to hide your car from the seekers. Storage",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9f1e4eb458ad4b1290599ec216001117-preview.jpg"
+    },
+    {
+      "name": "Prop Hunt Remastered - BakkesPlugins",
+      "author": "",
+      "description": "UPDATED VERSION OF PROP HUNT:\r\n\r\nDisguise your car as a prop and try to avoid getting caught!\r\n\r\nThis map is the first prop hunt map I created. You can choose a",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/178eaa9b828544c89debb4b237b97640-preview.jpg"
+    },
+    {
+      "name": "Water Polo Remastered - BakkesPlugins",
+      "author": "",
+      "description": "UPDATED VERSION OF WATER POLO:\r\n\r\nThis map was originally created by Glhglh, but I remastered it to work in the current state of the game. The goals are suspend",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ce8e5d1a04a84fd5982ce41d8c725305-preview.jpg"
+    },
+    {
+      "name": "Rapid Fire - BakkesPlugins",
+      "author": "",
+      "description": "Inspired by Hungry Hungry Hippos, I created a 4-player (or 2-team) ball collection game mode! There are 3 different ball types:\r\nStandard Ball: 1 Point\r\nDropsho",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/211fe474410840c189092f0615ef1621-preview.jpg"
+    },
+    {
+      "name": "Forest - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nI created this map to help Mr. Beast with his #TeamTrees project last year to plant 20 million trees! This map is an interpretation of a standard m",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/16f51c30c1554899808be5f92d2b446d-preview.jpg"
+    },
+    {
+      "name": "Volcanic Eruption - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThe fourth edition of my Rocket League Sumo series! This time around, beware of the active volcano that will erupt at random moments, sending every",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/236f824e5e084b0599d1dfcb12f7fa47-preview.jpg"
+    },
+    {
+      "name": "Beach Brawl - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nI took Water Polo and the Rocket League Throwback Stadium and put them together into a mash-up of land and water gameplay! The goals are at the edg",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fedff35229844656b67c6a36a5a25b86-BeachBrawl.jpg"
+    },
+    {
+      "name": "Inside Out - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League but it’s inside-out! I put the goals in the middle of the field this time around, which leads to some pretty cool interactions above",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d3b3424c806d45809c111f8bbd18233f-preview.jpg"
+    },
+    {
+      "name": "Standard Dropshot - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nStandard Dropshot is probably my most polished map to date. This is the ultimate combination between Standard Rocket League and Dropshot, including",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f088b3bf2b4b4c6eb1dd8f6a282e53cc-preview.jpg"
+    },
+    {
+      "name": "The Bubble - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWelcome to the Rocket League Bubble, the 5th installment of the Sumo Series! This map features a ring around the outside, with a giant bubble in ce",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/70677ae717084a1f97c6f109c38e2fb5-preview.jpg"
+    },
+    {
+      "name": "Fall Guys - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nIt may have taken me 300+ hours to make all the models and get the whole map functioning, but it’s finally a reality! Fall Guys in Rocket League. T",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1be25668a6b34fc3b9b5f3eecee4c6d2-preview.jpg"
+    },
+    {
+      "name": "Dart Board - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThe second addition to the Rocket League Arcade, the Rocket League dartboard joins the Pool Table Race as another fun mini game to enjoy with frien",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/768c5fa6057b4004ae6bb8b17a554a29-preview.jpg"
+    },
+    {
+      "name": "Half-Size - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League, but half the size! This map can destroy your brain, but it’s super fun! You can mess with the ball size to make the ball fit to scal",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c6ccdcf5f9754cbeba95ad7065048c20-preview.jpg"
+    },
+    {
+      "name": "Hex Drop - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nHex Drop is the second of Dropshot maps I’ve created! This map is the sister to Inside Out, where dropshot goals are between the H-shaped middle ar",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8802519452324c80817d801b548d49c5-preview.jpg"
+    },
+    {
+      "name": "Toronto Track - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRace in Downtown Toronto, my nearby city! There are crates covering the race track, and you can recover boost by running over the boost pads spread",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7c850d6cdcc04e57b13654c4b8304fe5-preview.jpg"
+    },
+    {
+      "name": "Popshot - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League Dropshot… but on the ceiling instead?! This map was a lot of fun to create, and a lot of fun to play! Pop the ball into the ceiling t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e4c0a4a6dc2843f2bcbb426463cc8da6-preview.jpg"
+    },
+    {
+      "name": "Flash Freeze - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWelcome to Rocket League Flash Freeze! Every 15-30 seconds a random flash freeze will occur, stopping the ball’s motion for up to 3 seconds! There’",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6dc49b339ca741b0ab0d43e3c712cdee-preview.jpg"
+    },
+    {
+      "name": "Helium Ball - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League, but the ball is weightless! Enjoy a ball with zero gravity in my standard dungeon map. This will mess with your brain, gauranteed, b",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/acccca4a33ba45b4b5b98bc946daed0c-preview.jpg"
+    },
+    {
+      "name": "Cargo Bay - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League in space! The ball behaves normally but the cars float in the “air” in the map! This makes it very difficult to control your car, so",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/246c7b61c7a5411dafe7966618dcb599-preview.jpg"
+    },
+    {
+      "name": "Sumo Cagematch - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nTechnically this is the 6th map to join the Sumo Series of maps, but in this version it’s all about demolitions! Be the last one standing to win. F",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/77dfe66b546e4e0a88e3d23488043684-preview.jpg"
+    },
+    {
+      "name": "Grand Hall - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nA freestyler’s paradise… Enjoy this non-standard map with pilars around a cylindrical hall! Expect some crazy bounces off the pillars around the ed",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cb6c50df0f8c4ff69153dd91d5d5e38f-preview.jpg"
+    },
+    {
+      "name": "Double-Size - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League, but it’s twice the size! Feel free to experiment with ball size and boomer, expect a long journey back to your goal! This is part 2",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/60797289b1124bd6bad66bad1b83222c-preview.jpg"
+    },
+    {
+      "name": "Graverobber - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nIn this spooky Rocket League map, enjoy a bit of a spin-off of standard gameplay with goals that open up in the floor! Score in the standard net to",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e7bedad71c6e44dd8a7e3a342a06fb11-preview.jpg"
+    },
+    {
+      "name": "Air Dribble Arena - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is perfect for air dribble practice! The goals are elevated on the backboard, with a ramp in the center that sets you up to carry the ball",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c2f791adaaba4ebaaa5918871c827eae-preview.jpg"
+    },
+    {
+      "name": "Spaceseeker - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nHeatseeker in space! What more could you want? I created a giant cage to contain this crazy heatseeker ball with zero gravity. Be careful of when t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2a6335d60389406994ec665f1c14872c-preview.jpg"
+    },
+    {
+      "name": "Capture the Flag - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map has been requested for so long, and it’s finally a reality! Welcome to Rocket League Capture the Flag! Bring the opponent’s ball to your z",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7b39cf4707ab437ab5e2d04bca97b456-preview.jpg"
+    },
+    {
+      "name": "Sling Puck - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is based on a real-life board game where you use the elastic to get all of your pucks onto the opponent’s side… So I brought it to life in",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6200a276e300486b83b2348f5021955d-preview.jpg"
+    },
+    {
+      "name": "Air Hockey Remastered - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nAnyone remember my VERY old air hockey map with the underpass in the middle and GIGANTIC goals in the back? Yeah… we don’t talk about that. Here is",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/70bba741963e470e8a08d7a6063c4a6e-preview.jpg"
+    },
+    {
+      "name": "Crossroads - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nSimilar to the old Octagon map, there are 4 goals in the outer edges of the map, but I’ve cut in the sides creating a cross-shape in the map. Quick",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/883bfd01580c4dcc958ef2a2566128b8-preview.jpg"
+    },
+    {
+      "name": "Among Us in Rocket League - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWith the help of Gidek and Cinderblock, 2 amazing modders in the community, we have come together to bring a fully working Among Us game inside Roc",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6b992d01e5a34faba6236270ec8093bc-preview.jpg"
+    },
+    {
+      "name": "Egyptian Parkour - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nI created an entire Egyptian Tomb adventure map inside Rocket League! Beware, as this map is very difficult! Boost is not allowed. The best experie",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/adda9a12e6774d1ab16fdffe7fdc9101-preview.jpg"
+    },
+    {
+      "name": "Block Fort Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League Block Fort, but this time with lava! Challenge your friends to a game of Sumo, and feel free to use demolition derby rumble powerups",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/663bd5feb2e341f093703499826470b8-preview.jpg"
+    },
+    {
+      "name": "Cornhole - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nUsing cube balls in rocket league, I’ve created a brand new game mode in Rocket League based on the game Cornhole! Take turns throwing bean bags on",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c0a36b9eb83e49a3a135ebdffea6dd5c-preview.jpg"
+    },
+    {
+      "name": "Wave Race - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League racing… on a jetski??? Yep, I finally finished a project I started 2 years ago. This is Rocket League Wave Race, challenge your friends to the mos",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/220e45397b5b4823a873be95961164a2-preview.jpg"
+    },
+    {
+      "name": "Neon Heights Rings - BakkesPlugins",
+      "author": "",
+      "description": "Learn how to aerial like a pro inside my second giant 20-level course of aerial navigation. The rings get smaller as you go through the levels, try for a person",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/317656f7bccf4e32a11a34b439fbf4bb-preview.jpg"
+    },
+    {
+      "name": "Giant Easter Egg - BakkesPlugins",
+      "author": "",
+      "description": "This standard Rocket League map variant was created by my sister, and it features 3 different platforms suspended inside a giant Easter egg! This map is a ton o",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9e732276a0f74d32895370bf8a1bc017-preview.jpg"
+    },
+    {
+      "name": "The Hive - BakkesPlugins",
+      "author": "",
+      "description": "This new game mode was started a year ago by myself, and recently Mr. Swaggles joined me to do a lot of the final details. We worked together for countless hour",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fce9849bfa2940169343f049650f35b3-preview.jpg"
+    },
+    {
+      "name": "Capture the Flag Winter - BakkesPlugins",
+      "author": "",
+      "description": "This map is a re-skin of my first Capture the Flag for Beyond the Summit! Bring the opponent’s ball to your zone while your ball is home to score a point! Feel",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6cdb96e34f754ac68a3d065ef797f105-preview.jpg"
+    },
+    {
+      "name": "Split - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map takes standard Rocket League and splits it in half. Since the map is split in half, 2v2 is the minimum game mode for this map, and make su",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f1196629aae649a79b53eef047c0d224-preview.jpg"
+    },
+    {
+      "name": "Air Hockey 4Team - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis is a variation of the Air Hockey Map I released in the Rocket League arcade, this time with 4 teams! There are corners which push the puck bac",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/435e435a1ad242d5a2961938e7a7f2e8-preview.jpg"
+    },
+    {
+      "name": "Floating Rings - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map takes standard Rocket League and puts the rings in the air! Test your skill at accurate power shots, or try your hand at boomer mode with",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/481f14a6ad184fea88cc3693a09cbfce-preview.jpg"
+    },
+    {
+      "name": "Horseshoe - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map was designed by my sister (IamKikira on Twitch) and she created a vertical horseshoe with goals in the very bottom of each end. There are",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1cca5d75af1846979dadfdf779d6a0e7-preview.jpg"
+    },
+    {
+      "name": "DFH Cliffside - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League racing, one-way this time! Introducing DFH Cliffside, where it’s a race to the top of the hill. There are pitstops for fun relay race",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c0e0e24243484962ace42f003fa7b9f2-preview.jpg"
+    },
+    {
+      "name": "The Ring of Fire - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is the first of possibly many inside a brand new Rocket League Circus tent I created. This map features 2 ramps with a ring of fire in the",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5e38f03cea4e4c8dbfcc840a61111c13-preview.jpg"
+    },
+    {
+      "name": "Slantshot - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League Dropshot… but on the slanted floor this time around! Don’t worry if the ball is completely black, it’s intentional. For “some” reason",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5baba99a7f1f435e8a9d3f19920e0893-preview.jpg"
+    },
+    {
+      "name": "Capture the Flag Sandcastle - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is the second concept of Rocket League Capture the Flag! Bring the opponent’s ball to the top of your castle zone while your ball is home",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e4748187be304007bf669636c4293e1c-preview.jpg"
+    },
+    {
+      "name": "Rocket Labs Revolver - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map was an attempt at making a similar map to Rocket League’s own labs map, Loophole. Definitely one of my favorite projects based on how clea",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/40356b56362949fba7aed8a441a026d3-preview.jpg"
+    },
+    {
+      "name": "Infinium Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League Infinium: the newest Sumo map on the block. This time around, there are gravity wells in the center which will make travelling over t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a50074ff12fe4a8abcd6bb32379a1c11-preview.jpg"
+    },
+    {
+      "name": "Hexagon 2v2v2 - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map was designed to be a larger 3-team map, intended for 2v2v2. The goals are GIGANTIC, so enjoy as you betray your friends in this large open",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c4324bd804004c119e1cafcf3978c404-preview.jpg"
+    },
+    {
+      "name": "Full-Scale Football Field - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is a 1-to-1 scale of a football field (as much as it can be to scale for these cars…) with field goals and end zones. This map is incredib",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/130b7a01360d4e1ebe550586266229dc-preview.jpg"
+    },
+    {
+      "name": "Dual Pinball Tables - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is a 1-to-1 scale of 2 pinball tables connected together. The ball is the exact size a ball would be inside an arcade pinball machine, and",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a7e7ef5d3a8147c0a1f0d5f992694443-preview.jpg"
+    },
+    {
+      "name": "Broken Bridge - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThe Broken Bridge is one of the first maps my sister (iamKikira on Twitch) designed. Originally the map was just the field, but together we came up",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2cc76427b2c74796ae8816f4813a1219-preview.jpg"
+    },
+    {
+      "name": "Beer Pong Remastered - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis map is based on one of my earliest maps in Rocket League. Beer Pong is set up with 6 cups per team, and the objective is to score in each cup",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/dfe11acedb2a456c9ce60df133311bd8-preview.jpg"
+    },
+    {
+      "name": "Volleyshot - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nVolleyshot is a combination of Dropshot and Volleyball, where the goal is the same: score in the floor of the opponent’s side. However, in this ver",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ecdfd33e6f72441ea916c8ca5dd76732-preview.jpg"
+    },
+    {
+      "name": "Clock Tower - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWelcome to the Rocket League Clock Tower! This map is a giant re-imagination of the inside of a giant clock tower, with moving gears. The clock tic",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/20c93cf3790d45689271ff084e2697bb-preview.jpg"
+    },
+    {
+      "name": "Flappy Bird - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nI took the classic viral game of Flappy Bird and put it into Rocket League! Enabled “unlimited flips” in Bakkesmod freeplay settings, and try your",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/905aef63acbc417597fb2084014543c5-preview.jpg"
+    },
+    {
+      "name": "Mario Bros - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nI took the classic Mario Bros. game and stuck it inside Rocket League! Playing in a 2D platformer in a 3D game isn’t the most elegant, but I did my",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3ef06a449fda43f9a83eb618e3b9bb6b-preview.jpg"
+    },
+    {
+      "name": "Uplink - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThe idea of this map is that there are 6 towers that you need to transfer power to the center console. Send the ball through each zone to activate",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f3c31305a6b547faa1fbf8f89b8024ad-preview.jpg"
+    },
+    {
+      "name": "Tetris - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWelcome to Rocket League Tetris! This standard field is one of the craziest looking maps I’ve built in a while. There are 3 goals on the back wall",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1602bbd103864d4688cf401ff3c4192c-preview.jpg"
+    },
+    {
+      "name": "Zelda Clock Town - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWelcome to another hide n seek map! This one is based in The Legend of Zelda: Majora’s Mask’s Clock Town. I’ve added crates around the map to add m",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7dc81420acce41ec91e12149e4cdd874-preview.jpg"
+    },
+    {
+      "name": "Quake Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League Quake Sumo is another addition to the Sumo series of maps I’ve made, but this one runs a little differently. Instead of only having 1",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/163971ef0a4b4a4e89db252f1b50f6bf-preview.jpg"
+    },
+    {
+      "name": "Monster Truck Rally - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis SUNDAY SUNDAY SUNDAY! Come on down to the Rocket League Monster Truck Rally! Featuring tracks, hills, and a ring of fire! This is a standard R",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/185acdf2a1964ced967ea8c88e0937df-preview.jpg"
+    },
+    {
+      "name": "Quicksand Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nRocket League, but with Quicksand! Welcome to another addition to the Sumo series on my site. There are 4 islands with pyramids you can climb and h",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/02aa8c4aa4fb44398fe7653a45ee8d49-preview.jpg"
+    },
+    {
+      "name": "Medieval Jousting Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nWe jump into the land of medieval Rocket League, but this time around we’re jousting! This is a 1 on 1 game mode where you actually wear a giant la",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2ecab133a008490b92782085a0def695-preview.jpg"
+    },
+    {
+      "name": "Medieval Bumperball - BakkesPlugins",
+      "author": "",
+      "description": "Description\r\nThis is a Medieval rendition of a custom Rocket League map made by Yoshilus. Bumperball features 3 goals on each end, but the middle is worth 6 poi",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/53ca9b8219cd4eefb3bf443706c884e8-preview.jpg"
+    },
+    {
+      "name": "Medieval Volleyball - BakkesPlugins",
+      "author": "",
+      "description": "This is a Medieval rendition of a custom Rocket League map made by Derzo and MrPhil. Volleyball is one of the most classic custom Rocket League maps out there,",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/bf972f46ebe241dc84d8cdc00b73d568-preview.jpg"
+    },
+    {
+      "name": "Medieval Hoops Stadium - BakkesPlugins",
+      "author": "",
+      "description": "This is a Medieval rendition of my older custom Rocket League map, Hoops Stadium.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/66920dcca9d1413ca2a3de42fdac0322-preview_11zon.jpg"
+    },
+    {
+      "name": "Medieval Quidditch - BakkesPlugins",
+      "author": "",
+      "description": "This is a Medieval rendition of a custom Rocket League map made by Gidek.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fe5cf5bdc4b84b3091fdd7a2a3e7a176-preview_11zon.jpg"
+    },
+    {
+      "name": "Medieval Chainball - BakkesPlugins",
+      "author": "",
+      "description": "A medieval version of Chainball!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b4d7cd8a764d4dc1b3e10ff42a353b90-preview_11zon__11_.jpg"
+    },
+    {
+      "name": "F-Zero Big Blue - BakkesPlugins",
+      "author": "",
+      "description": "Race through a classic Nintendo racing stage!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fec744c22e054068a2dd548e79e2671d-preview.jpg"
+    },
+    {
+      "name": "Arabian Nights - BakkesPlugins",
+      "author": "",
+      "description": "A brand new Standard arena set in the Middle East!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/627e50b8f902417abce2eafe19638ddd-preview.jpg"
+    },
+    {
+      "name": "Random Goal Locations - Arabian Nights - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League, but the goal could literally be anywhere!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/69e1024356ae434099cfdea5162e56cd-LethArabianNightsRandomGoal_1.0.0.zip"
+    },
+    {
+      "name": "Go-Kart Mania - BakkesPlugins",
+      "author": "",
+      "description": "Race on 10 different maps in 1!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fa701401edeb4776b2e64d9093e6e448-preview.jpg"
+    },
+    {
+      "name": "Squid Game - Glass Bridge - BakkesPlugins",
+      "author": "",
+      "description": "A glass bridge based on the Netflix series, Squid Game!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d1eb22d39d8d43dba584353e871f7f2c-preview.jpg"
+    },
+    {
+      "name": "Dueling Snakes - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League with a goal the size of the ball!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6a8a1a0c12ca4dcf83ed5d0c6026e40c-preview.jpg"
+    },
+    {
+      "name": "Donut Dropshot - BakkesPlugins",
+      "author": "",
+      "description": "Dropshot in a circle this time!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a13a390b96344c8d9c3a8bf0763f4ce7-preview.jpg"
+    },
+    {
+      "name": "Whirly Tanks - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the FIRST installment of Whirly Tanks!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d84b155918944eefa5326864fe01bf62-preview.jpg"
+    },
+    {
+      "name": "Connect 4 - BakkesPlugins",
+      "author": "",
+      "description": "Connect 4 in a line to win!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9a5636126db2420d87921493e0ec38c1-preview.jpg"
+    },
+    {
+      "name": "Graverobber Day - BakkesPlugins",
+      "author": "",
+      "description": "This is simply the Day version of last year’s Halloween map!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ac064ef8ac164dae88e45e8c6293966c-preview.jpg"
+    },
+    {
+      "name": "Capture the Flag - Candyland - BakkesPlugins",
+      "author": "",
+      "description": "Capture the Flag: Candyland edition!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3cbadcbb496a41dfa64fab17c79c73ab-preview.jpg"
+    },
+    {
+      "name": "Pod Racing - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League racing has leveled up, now with brand new vehicles!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e5f130d9222b4590a288480f98cbe2f1-preview.jpg"
+    },
+    {
+      "name": "Sizzs Building - BakkesPlugins",
+      "author": "",
+      "description": "Sizz asked me to make this…",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7ddb533bcd6e479f961aa899766e324c-preview.jpg"
+    },
+    {
+      "name": "Garrison - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to a brand new type of game mode I’ve created that I’m calling Garrison.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/50ae9d86977a4ed3bb2c9b25082dbf3a-preview.jpg"
+    },
+    {
+      "name": "Dice - BakkesPlugins",
+      "author": "",
+      "description": "Score in the holes of dice to gain points!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/43caad5ccf544f73bafb4e30ffc7f543-preview.jpg"
+    },
+    {
+      "name": "Jump Rope Sumo - BakkesPlugins",
+      "author": "",
+      "description": "This is one of my first Sumo maps where the goal isn’t to know your opponents off a platform!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/91cc502357d54d96a7db99278ea82d73-preview.jpg"
+    },
+    {
+      "name": "Smash Bros Sumo - BakkesPlugins",
+      "author": "",
+      "description": "Smash Bros. meets Rocket League!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/75e479056019405a8922705065ba1169-preview.jpg"
+    },
+    {
+      "name": "Cross Bridge - BakkesPlugins",
+      "author": "",
+      "description": "Labs-style Rocket League with a giant bridge in the middle!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/55dd6bc7386c4c9fab8d58ee0b4e728b-preview.jpg"
+    },
+    {
+      "name": "Top Down Rocket League - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League with a top-down view. Simple as that.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/0e1d0a315d9e41c9aa2de98cdab8b2ea-preview.jpg"
+    },
+    {
+      "name": "Jungle Gym Sumo Day - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the Rocket League Jungle Gym!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b3aaa039c9e743bdbad5d00431433c84-preview.jpg"
+    },
+    {
+      "name": "Troll Bowl - BakkesPlugins",
+      "author": "",
+      "description": "Trolling on steroids",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1a56e91dc4a740e9a81968f6fa0f0251-TrollBowl_11zon.jpg"
+    },
+    {
+      "name": "Stack - BakkesPlugins",
+      "author": "",
+      "description": "Drop to the bottom floor to score!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ea072ebda30e41519cd2132479ce3d46-Stack.jpg"
+    },
+    {
+      "name": "Spiny Spin Spin - BakkesPlugins",
+      "author": "",
+      "description": "You spin me right round baby",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9b13b92bc2844d4fb805f6689fa4ea52-SpinySpinSpin_11zon.jpg"
+    },
+    {
+      "name": "Jungle Gym Sumo Night - BakkesPlugins",
+      "author": "",
+      "description": "The night version of Jungle Gym Sumo.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/792c211f05b74ce99eca58290ade8ed6-preview.jpg"
+    },
+    {
+      "name": "Soda - BakkesPlugins",
+      "author": "",
+      "description": "Coke v Pepsi",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d263cb06b72b431591bb88b836376757-soda_11zon.jpg"
+    },
+    {
+      "name": "Small Peanut - BakkesPlugins",
+      "author": "",
+      "description": "If you only could score...",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/df40924fb7894d1089593ec13be7a202-SmallPeanut.jpg"
+    },
+    {
+      "name": "Oil Rig - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the largest of my Hide n Seek maps!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/37af202c938d42b69e30bfc0999478ff-preview.jpg"
+    },
+    {
+      "name": "Shroomo - BakkesPlugins",
+      "author": "",
+      "description": "Rocket League on Shrooms",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cb8d5597470c4e63aca42873379a1f94-Shroomo.jpg"
+    },
+    {
+      "name": "Sheet Music - BakkesPlugins",
+      "author": "",
+      "description": "Find out the musical reference for brownie points",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1574713109cc4869b09ec837ab575bdd-SheetMusic.jpg"
+    },
+    {
+      "name": "Dribbling Challenge 1 Remastered - BakkesPlugins",
+      "author": "",
+      "description": "Over 100 maps later, I’ve remastered the Dribble Challenge 1 I made years ago.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/492357a5ac414ed09b605a1b410a0301-preview.jpg"
+    },
+    {
+      "name": "Whirly Tanks 2 - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the second installment of Whirly Tanks!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/259ba1b036f6495a9e9e599d2354e4cd-preview.jpg"
+    },
+    {
+      "name": "Peanut - BakkesPlugins",
+      "author": "",
+      "description": "Biggest nuts in Rocket League.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/216f24c69e1d442690d6f4149b6b84d0-Peanut_1.0.0.zip"
+    },
+    {
+      "name": "Horseshoes - BakkesPlugins",
+      "author": "",
+      "description": "Ringers baby",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/eae8fd56b8ff4ce4a9bf7c85116b41df-Horseshoes_11zon.jpg"
+    },
+    {
+      "name": "Jenga Sumo - BakkesPlugins",
+      "author": "",
+      "description": "This sumo map is the first of potentially many sumo maps that introduce moving objects you have to maneuver around to survive!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8fb9102a957b4fd18d39e3e0e4e3c97d-preview.jpg"
+    },
+    {
+      "name": "Cowboy Hat - BakkesPlugins",
+      "author": "",
+      "description": "Yeeeeeeeehaw",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4aa72f80e42242d9b1d2b034ceee6edd-Hat_11zon.jpg"
+    },
+    {
+      "name": "Fountain - BakkesPlugins",
+      "author": "",
+      "description": "Hit the ball down on the opponents side",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e4b5a3c549ca4f09ad8f7a47935039a2-Fountain_11zon.jpg"
+    },
+    {
+      "name": "Sideswipe Dropshot - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to a proof-of-concept for Sideswipe: Dropshot!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5228489333844685b06e905c7ae263b9-preview.jpg"
+    },
+    {
+      "name": "DodgeBall - BakkesPlugins",
+      "author": "",
+      "description": "Dodge ball, don't die",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d3a9d518fed24b129f96dc31e4ec556d-DodgeBall_11zon.jpg"
+    },
+    {
+      "name": "Chains - BakkesPlugins",
+      "author": "",
+      "description": "Try to score while chained up!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c52c9bdefef04c3188cc380c2671b61d-chains_11zon.jpg"
+    },
+    {
+      "name": "Cant Get It Up - BakkesPlugins",
+      "author": "",
+      "description": "You may try, but you will fail.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/93c8a959d82444d49f897cc264c18bce-CantGetItUp_11zon.jpg"
+    },
+    {
+      "name": "Standard Garrison - BakkesPlugins",
+      "author": "",
+      "description": "This is a standard spin on the mode I created called Garrison! Keep the ball in the opponent’s half to take away their HP. Test your friends’ offense!.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/12162be7aad74dc4a191781314929f71-preview.jpg"
+    },
+    {
+      "name": "The Elements - BakkesPlugins",
+      "author": "",
+      "description": "This 6-month project combines the 4 basic “elements” into one giant map: Earth, Water, Air & Fire.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/6f419b2dbb2e4a5dbb532cbb6600aa82-preview.jpg"
+    },
+    {
+      "name": "Dacia Spring Electric Challenge - BakkesPlugins",
+      "author": "",
+      "description": "Dacia Spring Electric Challenge is a special map created with Lethamyr, Gidek & Mr. Swaggles where you will go on a 100% electric journey. Fly through a bustlin",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/752f0767d0df47aeac4cfacf63844c5c-preview.jpg"
+    },
+    {
+      "name": "Alley Hoops - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to AlleyHoops!\r\n\r\nTest your street skills in an actual court!\r\n\r\nMutators: Hoops, Unlimited Boost\r\n\r\nJoin My Discord for Sneak Peeks and Bloopers - http",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d759482b2c16429c95a5161f8206a9a4-AlleyHoops.jpg"
+    },
+    {
+      "name": "Medieval Rings - BakkesPlugins",
+      "author": "",
+      "description": "Learn how to aerial like a pro inside my third giant 20-level course of aerial navigation.",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/83145f3c17cd48a38da0bfb3b2e1affa-preview.jpg"
+    },
+    {
+      "name": "Hoopidor - BakkesPlugins",
+      "author": "",
+      "description": "Long boy hoops map",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/e983b7c5e83d4205ba273abcf0e26ae2-Hoopidor_11zon.jpg"
+    },
+    {
+      "name": "The Rooms - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>The Rooms</b></h1>\n<b>Multiplayer up to 8 players</b>\n \n<i>*Requires Netcode Plugin*</i>\n\nSpawn into a massive ring of giant crates stacked two levels hi",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/4859722e93df4fcf89e46d49354793e5-a46a00d9-c1a6-4e01-9477-5a257f71c87d.jpg"
+    },
+    {
+      "name": "Mario Kart Racing - Lethuigi's Mansion - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>Rocket League meets Mario Kart</b></h1>\n<b>Multiplayer up to 8 players</b>\n\nShout out to <b>Lethamyr</b> for the original Luigi's Mansion map layout and",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ea94f083edc143d89601fe4fd1a4d795-4cfff145-13b1-4d19-a0ed-3148439d6b4b.jpg"
+    },
+    {
+      "name": "Limited Boost Dribble Challenge - BakkesPlugins",
+      "author": "",
+      "description": "## 🚀 FIRST EVER LIMITED BOOST DRIBBLE CHALLENGE!!! 🚀\n\n🔥 This is a **challenging** dribble map designed to test your skills with **limited boost**! 🔥  \n⚠️ **",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/266aec1fafa44258b76a3f3c3917c3c3-76b3d775-c1b7-4bd4-b959-301ad92741e5.jpg"
+    },
+    {
+      "name": "Impossible Dribble - BakkesPlugins",
+      "author": "",
+      "description": "## 💀 THE IMPOSSIBLE DRIBBLE CHALLENGE IS HERE!!! 💀\n\n🔥 Think you're good? **YOU COULDN'T BE MORE WRONG.**  \nThis map will **destroy your ego** and test your l",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/48e18bf268ad42a6801202011445ea3c-40e580ff-c2ea-4694-8190-a8cab221d352.jpg"
+    },
+    {
+      "name": "Mario Kart Racing: DK Jungle - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>Rocket League meets Mario Kart</b></h1>\n<b>Multiplayer up to 8 players</b>\n\nHuge shoutout to <b>Lethamyr</b> for the incredible DK Jungle map recreation,",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/fd359f512b8e4940bdbf3a7d52f3ddc3-1f4703f0-a012-4b1d-9d33-2fcda8c5f275.jpg"
+    },
+    {
+      "name": "RL Sports: Outdoor Soccar - BakkesPlugins",
+      "author": "",
+      "description": "<h1>RL Sports: Outdoor Soccar</h1>\n<h2>Rocket League in a fresh outdoor arena!</h2>\n<b>Multiplayer, works up to 4v4</b>\n\nWhen the ball goes out of bounds, the o",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/f9cd04c2024e41dd9de2283e8b6efc32-44b949dd-a639-42c8-94d1-2174320ddbbb.jpg"
+    },
+    {
+      "name": "Orbital Rings - BakkesPlugins",
+      "author": "",
+      "description": "A 10 Level ring course IN SPACE! Fly through the center black hole for a cinematic ending!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/ba5e0baf5be34461838d932634c0ce1e-64f81c23-a844-414d-8d71-0c372f50d1cd.jpg"
+    },
+    {
+      "name": "Aerial Training - Snitch - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>Put your aerial skills to the test!</b></h1>\n<b>Test your aerial car control by catching the Golden Snitch</b>\n\n<hr></hr>\n<h2><b> - MUTATORS - </b></h2>",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/1c339180caf3452da39754734f81b06d-670d3d43-f3cb-4b0c-a5c3-d3f45c4b2fb1.jpg"
+    },
+    {
+      "name": "9 Layer Vertical Maze (Hard) - BakkesPlugins",
+      "author": "",
+      "description": "Do you hate your self? Well if you play this map, you will. Im not one for mazes but there are 9 levels to beat if you think you have the patience. Your motivat",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c8dca6f0380e49c4b74782d4f2180d9c-e5cca2a8-337f-4a6c-9a3a-64d2b887db0c.jpg"
+    },
+    {
+      "name": "Space Galaxy - BakkesPlugins",
+      "author": "",
+      "description": "SPACE MAP!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/dac29fb6a03940d18d6d01ef94a29601-6f7d3e00-7e84-45fd-ad75-6a343fac8bd0.jpg"
+    },
+    {
+      "name": "Minecraft Oasis - Standard & Hide Map by Morphew - BakkesPlugins",
+      "author": "",
+      "description": "This map is an adaptation of the &quot;Desert Oasis&quot; Minecraft map created by Sluda Builds. I made several adjustments to accommodate the field, and while it took qu",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3e62f552a7f94d8e84015ed12400c518-f71348ab-1aad-43db-9d15-efa1fa0a1c9f.jpg"
+    },
+    {
+      "name": "FPS Aim Trainer v1.0 by Morphew - BakkesPlugins",
+      "author": "",
+      "description": "Are you tired of your mouse aim becoming trash because you play RL all day. Or perhaps your friends are forcing you to play RL while you would rather be on you",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/7dc204d8142248f28119448984c162c7-db51f306-03dc-4a81-8a12-6d4daaad1e09.jpg"
+    },
+    {
+      "name": "Glider Simulator - Morphew - BakkesPlugins",
+      "author": "",
+      "description": "This map the first part of three in my new Simulator series! Fly upside down, under trees, through the buildings and there wire gaps, or even down through the r",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/df544b2397c541039408c2e899642d0c-efd1d74e-1bd6-4f28-a2c1-38d55ec794f1.jpg"
+    },
+    {
+      "name": "Intuition Stadium: Revamped - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>Do you have the instinct to win?</b></h1>\n<b>Multiplayer up to 8 players*</b>\n*See bottom for requirements\n\nHuge shoutout to Sopze for the original map!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/71294862c00b48a7b0878059f92519dd-87f43fd2-f66d-4677-b647-d5df10dc6e2a.jpg"
+    },
+    {
+      "name": "Impossible Sideways Dribble Challenge - BakkesPlugins",
+      "author": "",
+      "description": "This map was designed for the Octane hitbox. For the intended experience use a car featuring this hitbox. \nSubscribe to Youtube for more content! https://www.yo",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9df96fb98f2c478195bb8429c1510853-eb79471c-fd66-4e4c-bf18-d560f1a63fcb.jpg"
+    },
+    {
+      "name": "RINGs OF DEATH - BakkesPlugins",
+      "author": "",
+      "description": "many rings",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/17c7cc261519430d8c1249499925dc87-4331fcee-b4fd-4c5d-b5ae-7cabe94b0561.jpg"
+    },
+    {
+      "name": "Duality - BakkesPlugins",
+      "author": "",
+      "description": "Duality Dropshot\n\nIn this map there are goals for each team on both sides of the field. You can tell which goal belongs to which team by the colored ring around",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/c629c8f34b674c49a802f765dfee2376-e8b7bd44-c012-430c-bd1c-4536658165e1.jpg"
+    },
+    {
+      "name": "Dribble 2 overhaul - BakkesPlugins",
+      "author": "",
+      "description": "The map can be fully reset without having to back out to the main menu by touching the catfish on the level 1 platform. On the starting platform there are sever",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/a3acb8f5b25c4bfd8bb08c013b8ed177-0e250be4-2b26-4839-9eea-5bb8d2da29d6.jpg"
+    },
+    {
+      "name": "Motor map - BakkesPlugins",
+      "author": "",
+      "description": "Recommended modifiers : Football, Rumble or Boomer Ball with Unlimited Boost\n\n(The map might generate a little lag when playing with 4 people.)",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/043e742c055f405bb2f1027ac6a97e3c-29f55fec-ab66-4910-b576-6fe779d3f7ea.jpg"
+    },
+    {
+      "name": "Infinite aerial journey - BakkesPlugins",
+      "author": "",
+      "description": "This map has 4 difficulty levels:\n\nEasy (for bronze 1 to silver 3)\n\nMedium (for gold 1 to platinum 1)\n\nHard (for Platinum 2 to Champion 3)\n\nImpossible (for grea",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2ada163027d64c60b35baddf9fd2093a-7707e42e-3287-44b1-9bb5-97b17c3395b7.jpg"
+    },
+    {
+      "name": "Turn By Turn - BakkesPlugins",
+      "author": "",
+      "description": "I recommend:\n-1v1 Lower than GC1\n-Standard mutators\n\nHave Fun!",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/cbfe9a85b57d4af4812b92d3e026eaf7-4501c5fb-6e4f-4198-a7f7-222a9abe17c7.jpg"
+    },
+    {
+      "name": "mapa guloso - BakkesPlugins",
+      "author": "",
+      "description": "abacate gulosolosolosolosoloso",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/42b574d825be4ac5932244bbae0f8b13-85760039-ba8a-4a93-8fde-e2ed166a679f.jpg"
+    },
+    {
+      "name": "MAPPPP - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/83f90d5a3691426a945aba14c7ca86d7-e926e6d7-625e-48c9-b506-811b881fb7fb.jpg"
+    },
+    {
+      "name": "Siege (Non-standard Arena) - BakkesPlugins",
+      "author": "",
+      "description": "A non-standard arena with two goals on each side",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/8c5be9c3c4a0440683fc8f110fa6e2d4-3db6ae07-1af0-475c-bf28-3b8309514ada.jpg"
+    },
+    {
+      "name": "Kaokor Challenge - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/9032696c500e41fa9e8876cfab4a5fe4-9d62e112-9f63-48d7-9c17-ca66e6919875.jpg"
+    },
+    {
+      "name": "Creative Mode - BakkesPlugins",
+      "author": "",
+      "description": "Welcome to the Creative Mode!\nby Ecrase-Patate, MrPhil, blaku, Mr. Swaggles & F r a c t a l\nIt's been a long process but we are very happy to finally release th",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/3a14381130a544edad3bcf8ed3fb796b-d0b9cc02-a783-467b-8a62-9d2526c92c47.jpg"
+    },
+    {
+      "name": "Kaokor challenge - BakkesPlugins",
+      "author": "",
+      "description": "Check out this custom Rocket League map on BakkesPlugins",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/5cdfd82c15284063804cc2729a22bf24-2f0223f3-8ce6-4bb5-bc7d-fdd8358ec459.jpg"
+    },
+    {
+      "name": "Minigolf 2 - BakkesPlugins",
+      "author": "",
+      "description": "Finally 9 new holes. Thanks Leth and Mr. Swaggles for bringing this project back to life and adding those finishing touches.\n\nSingle Player\nYou are supposed to",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/b5a19fe836474862a4f9d15ef00cbcf1-127feffd-77bb-48d2-a5f2-33317cdc8d73.jpg"
+    },
+    {
+      "name": "Mario Kart Rumble - BakkesPlugins",
+      "author": "",
+      "description": "<h1><b>Mario Kart items. Rocket League rules.</b></h1>\n\n<b>Multiplayer up to 8 players</b>\n\nHuge thanks to <b>FRACTAL</b> for the amazing landscape, RGB field t",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/d3e1520884b74e36adfea816ac7e6de0-f0a918ae-6186-4572-8f38-fd08973ddb2e.jpg"
+    },
+    {
+      "name": "Duality 2 - BakkesPlugins",
+      "author": "",
+      "description": "Duality Dropshot 2\n\nIn this map there are goals for each team on both sides of the field. You can tell which goal belongs to which team by the colored ring arou",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/98a61a36f61743858d9022931e624d8b-44e03991-0112-4259-a92b-47b824f7dcf6.jpg"
+    },
+    {
+      "name": "rings - BakkesPlugins",
+      "author": "",
+      "description": "u go through rings to get past levels and dribble",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/2602efa8c05b4a1fa11fffd6fa7d35de-c52d8a6b-085a-422b-9272-17f3f78021f2.jpg"
+    },
+    {
+      "name": "Crossroads - BakkesPlugins",
+      "author": "",
+      "description": "*Crossroads*\n\nWelcome to the Crossroads, a 1v1 or 2v2 map where your ball-chasing skills will be put to the test. Player spawn points are marked on the map so s",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/11a0ff04625b4ad4af32dea0f0c030b2-65bab453-4dd8-4363-810b-dd81f4ab0474.jpg"
+    },
+    {
+      "name": "Demo Confirmed - Morphew - BakkesPlugins",
+      "author": "",
+      "description": "Map Includes:\n\nCustom RAPS ball\nMultiple backgrounds/environments to toggle\nChange your car into a RCXD car locally for fun\nTomahawks interact with the ball and",
+      "category": "Arena",
+      "downloadUrl": "https://cdn.bakkesplugins.com/uploads/62fa438d80854f76be935eae85e7fdf6-6fa55f17-ca67-40e6-afd8-fd09081f12ef.jpg"
     }
   ]
 }
