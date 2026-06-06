@@ -599,7 +599,7 @@ void CustomMapsPlugin::ScanNetworkForHosts() {
             std::vector<std::thread> workers;
             std::mutex foundMutex;
 
-            size_t end = std::min(offset + batchSize, scanIps.size());
+            size_t end = (offset + batchSize < scanIps.size()) ? offset + batchSize : scanIps.size();
             for (size_t i = offset; i < end; i++) {
                 workers.emplace_back([&, i]() {
                     if (IsPortOpen(scanIps[i], 7777, 120)) {
@@ -1101,40 +1101,36 @@ void CustomMapsPlugin::Render() {
                 JoinMultiplayerGame(joinIpBuf, joinPort);
             }
 
-            if (ImGui::BeginTable("hosttable", 4,
-                ImGuiTableFlags_Borders | ImGuiTableFlags_RowBg | ImGuiTableFlags_ScrollY,
-                ImVec2(0, 320))) {
-                ImGui::TableSetupColumn("Game");
-                ImGui::TableSetupColumn("Host IP");
-                ImGui::TableSetupColumn("Players");
-                ImGui::TableSetupColumn("Actions");
-                ImGui::TableHeadersRow();
-
-                if (discoveredHosts.empty() && !isScanningNetwork) {
-                    ImGui::TableNextRow();
-                    ImGui::TableSetColumnIndex(0);
-                    ImGui::TextDisabled("No games found. Click 'Scan Network' or ask a friend to host.");
-                }
-                else {
-                    for (int i = 0; i < (int)discoveredHosts.size(); i++) {
-                        auto& host = discoveredHosts[i];
-                        ImGui::PushID(i);
-                        ImGui::TableNextRow();
-                        ImGui::TableSetColumnIndex(0);
-                        ImGui::Text("%s", host.gameName.c_str());
-                        ImGui::TableSetColumnIndex(1);
-                        ImGui::Text("%s:%d", host.hostIp.c_str(), host.port);
-                        ImGui::TableSetColumnIndex(2);
-                        ImGui::Text("%s", host.players.c_str());
-                        ImGui::TableSetColumnIndex(3);
-                        if (ImGui::SmallButton("Join")) {
-                            JoinMultiplayerGame(host.hostIp, host.port);
-                        }
-                        ImGui::PopID();
-                    }
-                }
-                ImGui::EndTable();
+            ImGui::BeginChild("hostlist", ImVec2(0, 320), true);
+            if (discoveredHosts.empty() && !isScanningNetwork) {
+                ImGui::TextDisabled("No games found. Click 'Scan Network' or ask a friend to host.");
             }
+            else {
+                ImGui::Columns(4, "hostcols");
+                ImGui::SetColumnWidth(0, 140);
+                ImGui::SetColumnWidth(1, 140);
+                ImGui::SetColumnWidth(2, 60);
+                ImGui::Text("Game"); ImGui::NextColumn();
+                ImGui::Text("Host IP"); ImGui::NextColumn();
+                ImGui::Text("Players"); ImGui::NextColumn();
+                ImGui::Text("Actions"); ImGui::NextColumn();
+                ImGui::Separator();
+
+                for (int i = 0; i < (int)discoveredHosts.size(); i++) {
+                    auto& host = discoveredHosts[i];
+                    ImGui::PushID(i);
+                    ImGui::Text("%s", host.gameName.c_str()); ImGui::NextColumn();
+                    ImGui::Text("%s:%d", host.hostIp.c_str(), host.port); ImGui::NextColumn();
+                    ImGui::Text("%s", host.players.c_str()); ImGui::NextColumn();
+                    if (ImGui::SmallButton("Join")) {
+                        JoinMultiplayerGame(host.hostIp, host.port);
+                    }
+                    ImGui::NextColumn();
+                    ImGui::PopID();
+                }
+                ImGui::Columns(1);
+            }
+            ImGui::EndChild();
 
             ImGui::Columns(1);
             ImGui::EndTabItem();

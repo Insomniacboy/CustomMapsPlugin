@@ -115,6 +115,11 @@
     <ClCompile Include="GuiBase.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Update="imgui\imgui.cpp;imgui\imguivariouscontrols.cpp;imgui\imgui_additions.cpp;imgui\imgui_demo.cpp;imgui\imgui_draw.cpp;imgui\imgui_impl_dx11.cpp;imgui\imgui_impl_win32.cpp;imgui\imgui_rangeslider.cpp;imgui\imgui_searchablecombo.cpp;imgui\imgui_stdlib.cpp;imgui\imgui_timeline.cpp;imgui\imgui_widgets.cpp">
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="imgui\imconfig.h" />
     <ClInclude Include="imgui\imgui.h" />
     <ClInclude Include="imgui\imguivariouscontrols.h" />
