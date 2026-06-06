@@ -35,11 +35,13 @@ jobs:
             /p:PlatformToolset=v143 `
             /p:PostBuildEventUseInBuild=false
 
-      - name: Rename output DLL
+      - name: Prepare output DLL
         shell: pwsh
-        run: Copy-Item plugins/CustomMapsPLugin.dll plugins/CustomMapsPlugin.dll
+        run: |
+          New-Item -ItemType Directory -Force -Path artifact | Out-Null
+          Copy-Item plugins/CustomMapsPLugin.dll artifact/CustomMapsPlugin.dll
 
       - uses: actions/upload-artifact@v4
         with:
           name: CustomMapsPlugin
-          path: plugins/CustomMapsPlugin.dll
+          path: artifact/CustomMapsPlugin.dll
