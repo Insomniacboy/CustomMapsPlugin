@@ -640,16 +640,18 @@ void CustomMapsPlugin::HostMultiplayerGame() {
     // Close our UI so the game can take focus
     cvarManager->executeCommand("togglemenu custommaps", true);
 
-    // Correct sequence: load_workshop first (enters freeplay with the map),
-    // then host once the game is running to open it as a LAN listen server.
-    LOG("HostMultiplayerGame: loading map = {}", mapPath);
-    std::string cmd = "load_workshop \"" + mapPath + "\"";
-    cvarManager->executeCommand(cmd, true);
-    gameWrapper->SetTimeout([this, map](GameWrapper* gw) {
-        LOG("HostMultiplayerGame: starting host");
-        cvarManager->executeCommand("host", true);
-        statusMessage = "Hosting \"" + map.name + "\" — friends connect to your IP on port 27016.";
+    // All commands must run on the game thread via SetTimeout, not the ImGui render thread.
+    // Sequence: load_workshop enters freeplay with the map, then host opens it as a LAN server.
+    LOG("HostMultiplayerGame: scheduling load for map = {}", mapPath);
+    gameWrapper->SetTimeout([this, mapPath, map](GameWrapper* gw) {
+        LOG("HostMultiplayerGame: loading workshop map");
+        cvarManager->executeCommand("load_workshop \"" + mapPath + "\"", true);
+        gameWrapper->SetTimeout([this, map](GameWrapper* gw2) {
+            LOG("HostMultiplayerGame: starting host");
+            cvarManager->executeCommand("host", true);
+            statusMessage = "Hosting \"" + map.name + "\" — friends connect to your IP on port 27016.";
         }, 5.0f);
+    }, 0.1f);
 }
 
 void CustomMapsPlugin::JoinMultiplayerGame(const std::string& ip, int port) {
