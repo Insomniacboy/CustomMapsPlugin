@@ -1063,8 +1063,7 @@ void CustomMapsPlugin::Render() {
             }
 
             ImGui::Spacing();
-            bool canHost = !networkAddresses.empty()
-                && selectedHostMap >= 0
+            bool canHost = selectedHostMap >= 0
                 && selectedHostMap < (int)installedMaps.size();
             if (!canHost) ImGui::PushStyleVar(ImGuiStyleVar_Alpha, ImGui::GetStyle().Alpha * 0.5f);
             if (ImGui::Button("Host Game", ImVec2(-1, 0)) && canHost) {
@@ -1072,7 +1071,7 @@ void CustomMapsPlugin::Render() {
             }
             if (!canHost) {
                 ImGui::PopStyleVar();
-                ImGui::TextDisabled("Select an installed map and connect to a network to host.");
+                ImGui::TextDisabled("Select an installed map to host.");
             }
 
             ImGui::NextColumn();
