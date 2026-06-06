@@ -32,7 +32,8 @@ jobs:
             /p:Configuration=Release `
             /p:Platform=x64 `
             /p:BakkesModPath="$env:BAKKESMOD_PATH" `
-            /p:PlatformToolset=v143
+            /p:PlatformToolset=v143 `
+            /p:PostBuildEventUseInBuild=false
 
       - name: Rename output DLL
         shell: pwsh
