@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "Bash(find D:DevCustomMapsPlugin -type f \\\\\\(-name *.js -o -name *.ts -o -name *.tsx -o -name *.jsx \\\\\\))",
-      "Bash(grep -r -i \"rcon\\\\|execute\\\\|command\\\\|console\" D:/Dev/CustomMapsPlugin --include=*.cpp --include=*.h)"
+      "Bash(grep -r -i \"rcon\\\\|execute\\\\|command\\\\|console\" D:/Dev/CustomMapsPlugin --include=*.cpp --include=*.h)",
+      "Bash(gh run:*)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" run view 27061950985 --repo Insomniacboy/CustomMapsPlugin --log-failed 2>&1)"
     ]
   }
 }

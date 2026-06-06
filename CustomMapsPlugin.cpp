@@ -1062,12 +1062,12 @@ void CustomMapsPlugin::Render() {
             bool canHost = !networkAddresses.empty()
                 && selectedHostMap >= 0
                 && selectedHostMap < (int)installedMaps.size();
-            ImGui::BeginDisabled(!canHost);
-            if (ImGui::Button("Host Game", ImVec2(-1, 0))) {
+            if (!canHost) ImGui::PushStyleVar(ImGuiStyleVar_Alpha, ImGui::GetStyle().Alpha * 0.5f);
+            if (ImGui::Button("Host Game", ImVec2(-1, 0)) && canHost) {
                 HostMultiplayerGame();
             }
-            ImGui::EndDisabled();
             if (!canHost) {
+                ImGui::PopStyleVar();
                 ImGui::TextDisabled("Select an installed map and connect to a network to host.");
             }
 
