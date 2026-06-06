@@ -15,11 +15,10 @@ function Ensure-ImGui {
     }
 
     Expand-Archive "$sdk\imgui_bm.zip" -DestinationPath . -Force
-    Copy-Item imgui IMGUI -Recurse -Force
 
-    if (-not (Test-Path "IMGUI\imgui_stdlib.h")) {
-        Invoke-WebRequest "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.h" -OutFile IMGUI/imgui_stdlib.h
-        Invoke-WebRequest "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.cpp" -OutFile IMGUI/imgui_stdlib.cpp
+    if (-not (Test-Path "imgui\imgui_stdlib.h")) {
+        Invoke-WebRequest "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.h" -OutFile imgui/imgui_stdlib.h
+        Invoke-WebRequest "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.cpp" -OutFile imgui/imgui_stdlib.cpp
     }
 }
 

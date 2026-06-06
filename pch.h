@@ -26,9 +26,9 @@
 #pragma comment(lib, "dxgi.lib")
 #pragma comment(lib, "d3d11.lib")
 
-#include "IMGUI/imgui.h"
-#include "IMGUI/imgui_stdlib.h"
-#include "IMGUI/imgui_searchablecombo.h"
-#include "IMGUI/imgui_rangeslider.h"
+#include "imgui/imgui.h"
+#include "imgui/imgui_stdlib.h"
+#include "imgui/imgui_searchablecombo.h"
+#include "imgui/imgui_rangeslider.h"
 
 #include "logging.h"
