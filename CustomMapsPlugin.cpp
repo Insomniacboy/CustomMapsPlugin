@@ -641,9 +641,9 @@ void CustomMapsPlugin::HostMultiplayerGame() {
     cvarManager->executeCommand("togglemenu custommaps", true);
 
     // Launch the map as a LAN listen server — other players connect via IP:7777
+    // Must use ExecuteUnrealCommand for UE console commands like "open"; cvarManager only handles BakkesMod cvars
     gameWrapper->SetTimeout([this, mapPath, map](GameWrapper* gw) {
-        std::string cmd = "open \"" + mapPath + "\"?listen?game=TAGame.GameInfo_Soccar_TA?PRIVATE=1";
-        cvarManager->executeCommand(cmd, true);
+        gw->ExecuteUnrealCommand("open \"" + mapPath + "\"?listen?game=TAGame.GameInfo_Soccar_TA?PRIVATE=1");
         statusMessage = "Hosting \"" + map.name + "\" — share your IP with friends (port 7777).";
         }, 0.1f);
 }
