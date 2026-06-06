@@ -18,6 +18,19 @@ struct MapEntry {
     std::string fileSize;
 };
 
+struct NetworkAddress {
+    std::string ip;
+    std::string label;
+    bool isVpn = false;
+};
+
+struct DiscoveredHost {
+    std::string gameName;
+    std::string hostIp;
+    int port = 7777;
+    std::string players;
+};
+
 class CustomMapsPlugin : public BakkesMod::Plugin::BakkesModPlugin, public PluginWindowBase {
 public:
     void onLoad() override;
@@ -38,6 +51,14 @@ private:
     void SaveFavorites();
     bool IsFavorite(const std::string& mapName);
     void ToggleFavorite(const std::string& mapName);
+
+    void RefreshNetworkDetection();
+    void ScanNetworkForHosts();
+    void HostMultiplayerGame();
+    void JoinMultiplayerGame(const std::string& ip, int port);
+    bool IsPortOpen(const std::string& ip, int port, int timeoutMs);
+    bool IsPrivateIPv4(const std::string& ip);
+    bool IsVpnAdapter(const std::string& adapterName);
 
     std::vector<MapEntry> maps;
     std::vector<MapEntry> filteredMaps;
@@ -63,4 +84,21 @@ private:
     float downloadProgress = 0.0f;
     bool isDownloading = false;
     std::string downloadingMapName = "";
+
+    std::vector<NetworkAddress> networkAddresses;
+    std::vector<DiscoveredHost> discoveredHosts;
+    char lobbyNameBuf[128] = {};
+    int hostPlayerCount = 6;
+    bool hostAddBots = false;
+    bool hostPasswordProtected = false;
+    char hostPasswordBuf[64] = {};
+    int selectedHostMap = -1;
+    char joinIpBuf[64] = {};
+    int joinPort = 7777;
+    bool isScanningNetwork = false;
+    bool isDetectingNetwork = false;
+    bool multiplayerTabOpened = false;
+    int scanProgress = 0;
+    int scanTotal = 0;
+    bool winsockInitialized = false;
 };

@@ -1,0 +1,15 @@
+# Build output
+plugins/
+build/
+
+# Generated ImGui sources (extracted from BakkesMod SDK by build.ps1 / CI)
+imgui/
+IMGUI/
+
+# Temp extraction folders
+_imgui_extract/
+_zipinspect/
+
+# Visual Studio
+.vs/
+*.user

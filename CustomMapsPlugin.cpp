@@ -10,6 +10,11 @@ void CustomMapsPlugin::onLoad() {
     LoadMapIndex();
     installedMaps = GetInstalledMaps();
 
+    WSADATA wsaData;
+    if (WSAStartup(MAKEWORD(2, 2), &wsaData) == 0) {
+        winsockInitialized = true;
+    }
+
     cvarManager->registerNotifier("custommaps_open", [this](std::vector<std::string> args) {
         cvarManager->executeCommand("togglemenu custommaps");
         }, "Open Custom Maps Plugin", PERMISSION_ALL);
@@ -18,6 +23,10 @@ void CustomMapsPlugin::onLoad() {
 void CustomMapsPlugin::onUnload() {
     SaveFavorites();
     previewImage = nullptr;
+    if (winsockInitialized) {
+        WSACleanup();
+        winsockInitialized = false;
+    }
 }
 
 std::filesystem::path CustomMapsPlugin::GetModsFolder() {
@@ -426,6 +435,237 @@ std::vector<MapEntry> CustomMapsPlugin::GetInstalledMaps() {
     return installed;
 }
 
+static std::string ToLowerCopy(std::string value) {
+    std::transform(value.begin(), value.end(), value.begin(), ::tolower);
+    return value;
+}
+
+bool CustomMapsPlugin::IsPrivateIPv4(const std::string& ip) {
+    in_addr addr{};
+    if (InetPtonA(AF_INET, ip.c_str(), &addr) != 1) return false;
+    unsigned long host = ntohl(addr.s_addr);
+    return (host >= 0x0A000000 && host <= 0x0AFFFFFF)       // 10.0.0.0/8
+        || (host >= 0xAC100000 && host <= 0xAC1FFFFF)       // 172.16.0.0/12
+        || (host >= 0xC0A80000 && host <= 0xC0A8FFFF);     // 192.168.0.0/16
+}
+
+bool CustomMapsPlugin::IsVpnAdapter(const std::string& adapterName) {
+    std::string name = ToLowerCopy(adapterName);
+    return name.find("hamachi") != std::string::npos
+        || name.find("zerotier") != std::string::npos
+        || name.find("radmin") != std::string::npos
+        || name.find("tap") != std::string::npos
+        || name.find("tun") != std::string::npos
+        || name.find("wireguard") != std::string::npos
+        || name.find("nordlynx") != std::string::npos;
+}
+
+bool CustomMapsPlugin::IsPortOpen(const std::string& ip, int port, int timeoutMs) {
+    if (!winsockInitialized) return false;
+
+    SOCKET sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
+    if (sock == INVALID_SOCKET) return false;
+
+    u_long mode = 1;
+    ioctlsocket(sock, FIONBIO, &mode);
+
+    sockaddr_in addr{};
+    addr.sin_family = AF_INET;
+    addr.sin_port = htons(static_cast<u_short>(port));
+    if (InetPtonA(AF_INET, ip.c_str(), &addr.sin_addr) != 1) {
+        closesocket(sock);
+        return false;
+    }
+
+    connect(sock, reinterpret_cast<sockaddr*>(&addr), sizeof(addr));
+
+    fd_set writeSet;
+    FD_ZERO(&writeSet);
+    FD_SET(sock, &writeSet);
+
+    timeval timeout{};
+    timeout.tv_sec = timeoutMs / 1000;
+    timeout.tv_usec = (timeoutMs % 1000) * 1000;
+
+    bool open = select(0, nullptr, &writeSet, nullptr, &timeout) > 0;
+    closesocket(sock);
+    return open;
+}
+
+void CustomMapsPlugin::RefreshNetworkDetection() {
+    if (isDetectingNetwork) return;
+    isDetectingNetwork = true;
+    networkAddresses.clear();
+
+    std::thread([this]() {
+        ULONG bufferSize = 15000;
+        std::vector<BYTE> buffer(bufferSize);
+        IP_ADAPTER_ADDRESSES* adapters =
+            reinterpret_cast<IP_ADAPTER_ADDRESSES*>(buffer.data());
+
+        ULONG result = GetAdaptersAddresses(
+            AF_INET,
+            GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER,
+            nullptr,
+            adapters,
+            &bufferSize);
+
+        if (result == ERROR_BUFFER_OVERFLOW) {
+            buffer.resize(bufferSize);
+            adapters = reinterpret_cast<IP_ADAPTER_ADDRESSES*>(buffer.data());
+            result = GetAdaptersAddresses(
+                AF_INET,
+                GAA_FLAG_SKIP_ANYCAST | GAA_FLAG_SKIP_MULTICAST | GAA_FLAG_SKIP_DNS_SERVER,
+                nullptr,
+                adapters,
+                &bufferSize);
+        }
+
+        std::vector<NetworkAddress> found;
+        if (result == NO_ERROR) {
+            for (auto* adapter = adapters; adapter; adapter = adapter->Next) {
+                if (adapter->OperStatus != IfOperStatusUp) continue;
+
+                std::string adapterName;
+                if (adapter->FriendlyName) {
+                    int len = WideCharToMultiByte(CP_UTF8, 0, adapter->FriendlyName, -1,
+                        nullptr, 0, nullptr, nullptr);
+                    if (len > 1) {
+                        adapterName.resize(len - 1);
+                        WideCharToMultiByte(CP_UTF8, 0, adapter->FriendlyName, -1,
+                            adapterName.data(), len, nullptr, nullptr);
+                    }
+                }
+                bool isVpn = IsVpnAdapter(adapterName);
+
+                for (auto* address = adapter->FirstUnicastAddress;
+                    address;
+                    address = address->Next) {
+                    if (address->Address.lpSockaddr->sa_family != AF_INET) continue;
+
+                    char ipStr[INET_ADDRSTRLEN]{};
+                    auto* sa = reinterpret_cast<sockaddr_in*>(address->Address.lpSockaddr);
+                    InetNtopA(AF_INET, &sa->sin_addr, ipStr, sizeof(ipStr));
+
+                    std::string ip(ipStr);
+                    if (ip == "127.0.0.1" || ip == "0.0.0.0") continue;
+                    if (!IsPrivateIPv4(ip) && !isVpn) continue;
+
+                    NetworkAddress entry;
+                    entry.ip = ip;
+                    entry.isVpn = isVpn;
+                    entry.label = isVpn
+                        ? "VPN (" + adapterName + ")"
+                        : "LAN (" + adapterName + ")";
+                    found.push_back(entry);
+                }
+            }
+        }
+
+        networkAddresses = found;
+        isDetectingNetwork = false;
+        }).detach();
+}
+
+void CustomMapsPlugin::ScanNetworkForHosts() {
+    if (isScanningNetwork || networkAddresses.empty()) return;
+    isScanningNetwork = true;
+    discoveredHosts.clear();
+    scanProgress = 0;
+
+    std::set<std::string> scanIpSet;
+    for (auto& addr : networkAddresses) {
+        size_t lastDot = addr.ip.rfind('.');
+        if (lastDot == std::string::npos) continue;
+
+        std::string prefix = addr.ip.substr(0, lastDot + 1);
+        int ownOctet = std::stoi(addr.ip.substr(lastDot + 1));
+        for (int i = 1; i <= 254; i++) {
+            if (i == ownOctet) continue;
+            scanIpSet.insert(prefix + std::to_string(i));
+        }
+    }
+
+    std::vector<std::string> scanIps(scanIpSet.begin(), scanIpSet.end());
+
+    scanTotal = static_cast<int>(scanIps.size());
+    statusMessage = "Scanning network for hosts...";
+
+    std::thread([this, scanIps]() {
+        std::vector<DiscoveredHost> found;
+        const int batchSize = 24;
+
+        for (size_t offset = 0; offset < scanIps.size(); offset += batchSize) {
+            std::vector<std::thread> workers;
+            std::mutex foundMutex;
+
+            size_t end = std::min(offset + batchSize, scanIps.size());
+            for (size_t i = offset; i < end; i++) {
+                workers.emplace_back([&, i]() {
+                    if (IsPortOpen(scanIps[i], 7777, 120)) {
+                        DiscoveredHost host;
+                        host.hostIp = scanIps[i];
+                        host.port = 7777;
+                        host.gameName = "Rocket League Host";
+                        host.players = "?";
+                        std::lock_guard<std::mutex> lock(foundMutex);
+                        found.push_back(host);
+                    }
+                    scanProgress = static_cast<int>(i + 1);
+                    });
+            }
+
+            for (auto& worker : workers) {
+                if (worker.joinable()) worker.join();
+            }
+        }
+
+        discoveredHosts = found;
+        isScanningNetwork = false;
+        statusMessage = found.empty()
+            ? "Scan complete — no hosts found on port 7777."
+            : "Scan complete — found " + std::to_string(found.size()) + " host(s).";
+        }).detach();
+}
+
+void CustomMapsPlugin::HostMultiplayerGame() {
+    if (selectedHostMap < 0 || selectedHostMap >= (int)installedMaps.size()) {
+        statusMessage = "Select an installed map to host.";
+        return;
+    }
+
+    auto& map = installedMaps[selectedHostMap];
+    cvarManager->executeCommand("plugin load RocketPlugin", true);
+
+    std::string lobby = lobbyNameBuf;
+    if (lobby.empty()) lobby = map.name;
+
+    gameWrapper->SetTimeout([this, map, lobby](GameWrapper* gw) {
+        cvarManager->executeCommand("togglemenu RocketPlugin", true);
+        statusMessage = "Hosting \"" + lobby + "\" — share your IP with friends (port 7777).";
+        }, 0.3f);
+
+    pendingMapPath = map.filePath;
+    pendingLaunch = false;
+}
+
+void CustomMapsPlugin::JoinMultiplayerGame(const std::string& ip, int port) {
+    if (ip.empty()) {
+        statusMessage = "Enter a host IP address to join.";
+        return;
+    }
+
+    strncpy_s(joinIpBuf, ip.c_str(), sizeof(joinIpBuf) - 1);
+    joinPort = port;
+
+    cvarManager->executeCommand("plugin load RocketPlugin", true);
+    gameWrapper->SetTimeout([this, ip, port](GameWrapper* gw) {
+        cvarManager->executeCommand("togglemenu RocketPlugin", true);
+        statusMessage = "Join " + ip + ":" + std::to_string(port)
+            + " in Rocket Plugin (enter IP on the right, enable custom map, click Join).";
+        }, 0.3f);
+}
+
 void CustomMapsPlugin::Render() {
     if (!windowOpen) return;
 
@@ -724,6 +964,178 @@ void CustomMapsPlugin::Render() {
                 ImGui::TextDisabled("Select a map on the left.");
             }
             ImGui::EndChild();
+            ImGui::Columns(1);
+            ImGui::EndTabItem();
+        }
+
+        // ---- MULTIPLAYER TAB ----
+        if (ImGui::BeginTabItem("Multiplayer")) {
+            if (!multiplayerTabOpened) {
+                multiplayerTabOpened = true;
+                RefreshNetworkDetection();
+            }
+
+            ImGui::Columns(2, "multiplayerlayout");
+            ImGui::SetColumnWidth(0, 380);
+
+            // --- Host section ---
+            ImGui::Text("Host a Game");
+            ImGui::Separator();
+
+            ImGui::Text("Lobby Name:");
+            ImGui::SetNextItemWidth(-1);
+            ImGui::InputText("##lobbyname", lobbyNameBuf, sizeof(lobbyNameBuf));
+
+            ImGui::Text("Players:");
+            ImGui::SameLine();
+            ImGui::SetNextItemWidth(80);
+            ImGui::InputInt("##hostplayers", &hostPlayerCount, 0, 0);
+            if (hostPlayerCount < 2) hostPlayerCount = 2;
+            if (hostPlayerCount > 8) hostPlayerCount = 8;
+
+            ImGui::Checkbox("Add Bots", &hostAddBots);
+            ImGui::Checkbox("Password protected", &hostPasswordProtected);
+            if (hostPasswordProtected) {
+                ImGui::SetNextItemWidth(-1);
+                ImGui::InputText("##hostpassword", hostPasswordBuf, sizeof(hostPasswordBuf),
+                    ImGuiInputTextFlags_Password);
+            }
+
+            ImGui::Spacing();
+            ImGui::Text("Select Map to Host:");
+            ImGui::BeginChild("hostmaplist", ImVec2(0, 120), true);
+            if (installedMaps.empty()) {
+                ImGui::TextDisabled("No maps installed. Download maps from Browse tab first!");
+            }
+            else {
+                for (int i = 0; i < (int)installedMaps.size(); i++) {
+                    if (ImGui::Selectable(installedMaps[i].name.c_str(), selectedHostMap == i)) {
+                        selectedHostMap = i;
+                    }
+                }
+            }
+            ImGui::EndChild();
+
+            ImGui::Spacing();
+            if (isDetectingNetwork) {
+                ImGui::TextDisabled("Detecting network adapters...");
+            }
+            else if (networkAddresses.empty()) {
+                ImGui::TextColored(ImVec4(1.0f, 0.4f, 0.4f, 1.0f),
+                    "No network connection detected.");
+                if (ImGui::Button("Retry Detection")) {
+                    RefreshNetworkDetection();
+                }
+            }
+            else {
+                bool hasLan = false;
+                bool hasVpn = false;
+                for (auto& addr : networkAddresses) {
+                    if (addr.isVpn) hasVpn = true;
+                    else hasLan = true;
+                }
+
+                if (hasLan) {
+                    ImGui::TextColored(ImVec4(0.4f, 1.0f, 0.4f, 1.0f),
+                        "LAN ready — friends on the same network can join directly.");
+                }
+                if (hasVpn) {
+                    ImGui::TextColored(ImVec4(0.4f, 0.8f, 1.0f, 1.0f),
+                        "VPN detected — remote friends can join via VPN IP.");
+                }
+                if (!hasLan && hasVpn) {
+                    ImGui::TextWrapped(
+                        "No physical LAN found. VPN-only mode — install Hamachi, ZeroTier, "
+                        "or Radmin VPN for remote friends, or connect to the same Wi-Fi for LAN.");
+                }
+
+                ImGui::Text("Share this address with friends:");
+                for (auto& addr : networkAddresses) {
+                    ImGui::BulletText("%s  %s:7777", addr.label.c_str(), addr.ip.c_str());
+                }
+
+                if (ImGui::Button("Retry Detection")) {
+                    RefreshNetworkDetection();
+                }
+            }
+
+            ImGui::Spacing();
+            bool canHost = !networkAddresses.empty()
+                && selectedHostMap >= 0
+                && selectedHostMap < (int)installedMaps.size();
+            if (ImGui::Button("Host Game", ImVec2(-1, 0)) && canHost) {
+                HostMultiplayerGame();
+            }
+            else if (!canHost) {
+                ImGui::TextDisabled("Select an installed map and connect to a network to host.");
+            }
+
+            ImGui::NextColumn();
+
+            // --- Join / browse section ---
+            ImGui::Text("Available Games");
+            ImGui::SameLine();
+            if (isScanningNetwork) {
+                ImGui::TextDisabled("Scanning... (%d/%d)", scanProgress, scanTotal);
+            }
+            else if (ImGui::Button("Scan Network")) {
+                if (networkAddresses.empty()) {
+                    RefreshNetworkDetection();
+                    statusMessage = "Detecting network first — click Scan Network again shortly.";
+                }
+                else {
+                    ScanNetworkForHosts();
+                }
+            }
+
+            ImGui::Separator();
+            ImGui::Text("Join by IP:");
+            ImGui::SetNextItemWidth(160);
+            ImGui::InputText("##joinip", joinIpBuf, sizeof(joinIpBuf));
+            ImGui::SameLine();
+            ImGui::SetNextItemWidth(70);
+            ImGui::InputInt("##joinport", &joinPort, 0, 0);
+            if (joinPort < 1) joinPort = 7777;
+            ImGui::SameLine();
+            if (ImGui::Button("Join")) {
+                JoinMultiplayerGame(joinIpBuf, joinPort);
+            }
+
+            if (ImGui::BeginTable("hosttable", 4,
+                ImGuiTableFlags_Borders | ImGuiTableFlags_RowBg | ImGuiTableFlags_ScrollY,
+                ImVec2(0, 320))) {
+                ImGui::TableSetupColumn("Game");
+                ImGui::TableSetupColumn("Host IP");
+                ImGui::TableSetupColumn("Players");
+                ImGui::TableSetupColumn("Actions");
+                ImGui::TableHeadersRow();
+
+                if (discoveredHosts.empty() && !isScanningNetwork) {
+                    ImGui::TableNextRow();
+                    ImGui::TableSetColumnIndex(0);
+                    ImGui::TextDisabled("No games found. Click 'Scan Network' or ask a friend to host.");
+                }
+                else {
+                    for (int i = 0; i < (int)discoveredHosts.size(); i++) {
+                        auto& host = discoveredHosts[i];
+                        ImGui::PushID(i);
+                        ImGui::TableNextRow();
+                        ImGui::TableSetColumnIndex(0);
+                        ImGui::Text("%s", host.gameName.c_str());
+                        ImGui::TableSetColumnIndex(1);
+                        ImGui::Text("%s:%d", host.hostIp.c_str(), host.port);
+                        ImGui::TableSetColumnIndex(2);
+                        ImGui::Text("%s", host.players.c_str());
+                        ImGui::TableSetColumnIndex(3);
+                        if (ImGui::SmallButton("Join")) {
+                            JoinMultiplayerGame(host.hostIp, host.port);
+                        }
+                        ImGui::PopID();
+                    }
+                }
+                ImGui::EndTable();
+            }
+
             ImGui::Columns(1);
             ImGui::EndTabItem();
         }
