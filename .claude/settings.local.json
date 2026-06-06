@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:DevCustomMapsPlugin -type f \\\\\\(-name *.js -o -name *.ts -o -name *.tsx -o -name *.jsx \\\\\\))",
+      "Bash(grep -r -i \"rcon\\\\|execute\\\\|command\\\\|console\" D:/Dev/CustomMapsPlugin --include=*.cpp --include=*.h)"
+    ]
+  }
+}

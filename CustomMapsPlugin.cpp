@@ -635,18 +635,17 @@ void CustomMapsPlugin::HostMultiplayerGame() {
     }
 
     auto& map = installedMaps[selectedHostMap];
-    cvarManager->executeCommand("plugin load RocketPlugin", true);
+    std::string mapPath = map.filePath;
 
-    std::string lobby = lobbyNameBuf;
-    if (lobby.empty()) lobby = map.name;
+    // Close our UI so the game can take focus
+    cvarManager->executeCommand("togglemenu custommaps", true);
 
-    gameWrapper->SetTimeout([this, map, lobby](GameWrapper* gw) {
-        cvarManager->executeCommand("togglemenu RocketPlugin", true);
-        statusMessage = "Hosting \"" + lobby + "\" — share your IP with friends (port 7777).";
-        }, 0.3f);
-
-    pendingMapPath = map.filePath;
-    pendingLaunch = false;
+    // Launch the map as a LAN listen server — other players connect via IP:7777
+    gameWrapper->SetTimeout([this, mapPath, map](GameWrapper* gw) {
+        std::string cmd = "open \"" + mapPath + "\"?listen?game=TAGame.GameInfo_Soccar_TA?PRIVATE=1";
+        cvarManager->executeCommand(cmd, true);
+        statusMessage = "Hosting \"" + map.name + "\" — share your IP with friends (port 7777).";
+        }, 0.1f);
 }
 
 void CustomMapsPlugin::JoinMultiplayerGame(const std::string& ip, int port) {
@@ -1063,10 +1062,12 @@ void CustomMapsPlugin::Render() {
             bool canHost = !networkAddresses.empty()
                 && selectedHostMap >= 0
                 && selectedHostMap < (int)installedMaps.size();
-            if (ImGui::Button("Host Game", ImVec2(-1, 0)) && canHost) {
+            ImGui::BeginDisabled(!canHost);
+            if (ImGui::Button("Host Game", ImVec2(-1, 0))) {
                 HostMultiplayerGame();
             }
-            else if (!canHost) {
+            ImGui::EndDisabled();
+            if (!canHost) {
                 ImGui::TextDisabled("Select an installed map and connect to a network to host.");
             }
 
