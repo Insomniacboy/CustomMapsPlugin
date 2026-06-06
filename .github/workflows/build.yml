@@ -21,7 +21,7 @@ jobs:
           Expand-Archive _bakkes/bakkesmodsdk/imgui_bm.zip -DestinationPath . -Force
           Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.h" -OutFile imgui/imgui_stdlib.h
           Invoke-WebRequest -Uri "https://raw.githubusercontent.com/ocornut/imgui/master/misc/cpp/imgui_stdlib.cpp" -OutFile imgui/imgui_stdlib.cpp
-          echo "BAKKESMOD_PATH=$PWD\_bakkes" >> $env:GITHUB_ENV
+          echo "BAKKESMOD_PATH=$PWD/_bakkes" >> $env:GITHUB_ENV
 
       - name: Build Release x64
         shell: pwsh
@@ -31,7 +31,7 @@ jobs:
           & $msbuild CustomMapsPLugin.vcxproj `
             /p:Configuration=Release `
             /p:Platform=x64 `
-            /p:BakkesModPath="$env:BAKKESMOD_PATH\" `
+            /p:BakkesModPath="$env:BAKKESMOD_PATH" `
             /p:PlatformToolset=v143
 
       - name: Rename output DLL
