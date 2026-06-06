@@ -602,10 +602,10 @@ void CustomMapsPlugin::ScanNetworkForHosts() {
             size_t end = (offset + batchSize < scanIps.size()) ? offset + batchSize : scanIps.size();
             for (size_t i = offset; i < end; i++) {
                 workers.emplace_back([&, i]() {
-                    if (IsPortOpen(scanIps[i], 7777, 120)) {
+                    if (IsPortOpen(scanIps[i], 27016, 120)) {
                         DiscoveredHost host;
                         host.hostIp = scanIps[i];
-                        host.port = 7777;
+                        host.port = 27016;
                         host.gameName = "Rocket League Host";
                         host.players = "?";
                         std::lock_guard<std::mutex> lock(foundMutex);
@@ -623,7 +623,7 @@ void CustomMapsPlugin::ScanNetworkForHosts() {
         discoveredHosts = found;
         isScanningNetwork = false;
         statusMessage = found.empty()
-            ? "Scan complete — no hosts found on port 7777."
+            ? "Scan complete — no hosts found on port 27016."
             : "Scan complete — found " + std::to_string(found.size()) + " host(s).";
         }).detach();
 }
@@ -640,16 +640,16 @@ void CustomMapsPlugin::HostMultiplayerGame() {
     // Close our UI so the game can take focus
     cvarManager->executeCommand("togglemenu custommaps", true);
 
-    // Launch the map as a LAN listen server — other players connect via IP:7777
-    // Must use ExecuteUnrealCommand for UE console commands like "open"; cvarManager only handles BakkesMod cvars
-    LOG("HostMultiplayerGame: map path = {}", mapPath);
+    // BakkesMod built-in host command starts a listen server on port 27016.
+    // load_workshop then swaps in the custom map.
+    LOG("HostMultiplayerGame: hosting map = {}", mapPath);
+    cvarManager->executeCommand("host", true);
     gameWrapper->SetTimeout([this, mapPath, map](GameWrapper* gw) {
-        std::string cmd = "open \"" + mapPath + "\"?listen?game=TAGame.GameInfo_Soccar_TA?PRIVATE=1";
-        LOG("HostMultiplayerGame: executing UE command: {}", cmd);
-        gw->ExecuteUnrealCommand(cmd);
-        LOG("HostMultiplayerGame: ExecuteUnrealCommand returned");
-        statusMessage = "Hosting \"" + map.name + "\" — share your IP with friends (port 7777).";
-        }, 0.1f);
+        std::string cmd = "load_workshop \"" + mapPath + "\"";
+        LOG("HostMultiplayerGame: loading workshop map: {}", cmd);
+        cvarManager->executeCommand(cmd, true);
+        statusMessage = "Hosting \"" + map.name + "\" — friends connect to your IP on port 27016.";
+        }, 1.0f);
 }
 
 void CustomMapsPlugin::JoinMultiplayerGame(const std::string& ip, int port) {
@@ -1054,7 +1054,7 @@ void CustomMapsPlugin::Render() {
 
                 ImGui::Text("Share this address with friends:");
                 for (auto& addr : networkAddresses) {
-                    ImGui::BulletText("%s  %s:7777", addr.label.c_str(), addr.ip.c_str());
+                    ImGui::BulletText("%s  %s:27016", addr.label.c_str(), addr.ip.c_str());
                 }
 
                 if (ImGui::Button("Retry Detection")) {
@@ -1099,7 +1099,7 @@ void CustomMapsPlugin::Render() {
             ImGui::SameLine();
             ImGui::SetNextItemWidth(70);
             ImGui::InputInt("##joinport", &joinPort, 0, 0);
-            if (joinPort < 1) joinPort = 7777;
+            if (joinPort < 1) joinPort = 27016;
             ImGui::SameLine();
             if (ImGui::Button("Join")) {
                 JoinMultiplayerGame(joinIpBuf, joinPort);

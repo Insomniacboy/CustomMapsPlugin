@@ -94,7 +94,7 @@ private:
     char hostPasswordBuf[64] = {};
     int selectedHostMap = -1;
     char joinIpBuf[64] = {};
-    int joinPort = 7777;
+    int joinPort = 27016;
     bool isScanningNetwork = false;
     bool isDetectingNetwork = false;
     bool multiplayerTabOpened = false;
