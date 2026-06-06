@@ -640,16 +640,16 @@ void CustomMapsPlugin::HostMultiplayerGame() {
     // Close our UI so the game can take focus
     cvarManager->executeCommand("togglemenu custommaps", true);
 
-    // BakkesMod built-in host command starts a listen server on port 27016.
-    // load_workshop then swaps in the custom map.
-    LOG("HostMultiplayerGame: hosting map = {}", mapPath);
-    cvarManager->executeCommand("host", true);
-    gameWrapper->SetTimeout([this, mapPath, map](GameWrapper* gw) {
-        std::string cmd = "load_workshop \"" + mapPath + "\"";
-        LOG("HostMultiplayerGame: loading workshop map: {}", cmd);
-        cvarManager->executeCommand(cmd, true);
+    // Correct sequence: load_workshop first (enters freeplay with the map),
+    // then host once the game is running to open it as a LAN listen server.
+    LOG("HostMultiplayerGame: loading map = {}", mapPath);
+    std::string cmd = "load_workshop \"" + mapPath + "\"";
+    cvarManager->executeCommand(cmd, true);
+    gameWrapper->SetTimeout([this, map](GameWrapper* gw) {
+        LOG("HostMultiplayerGame: starting host");
+        cvarManager->executeCommand("host", true);
         statusMessage = "Hosting \"" + map.name + "\" — friends connect to your IP on port 27016.";
-        }, 1.0f);
+        }, 5.0f);
 }
 
 void CustomMapsPlugin::JoinMultiplayerGame(const std::string& ip, int port) {
