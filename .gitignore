@@ -1,4 +1,6 @@
 # Build output
+plugins/
+build/
 artifact/
 
 # Generated ImGui sources (extracted from BakkesMod SDK by build.ps1 / CI)
